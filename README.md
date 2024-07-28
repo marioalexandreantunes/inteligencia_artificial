@@ -14,6 +14,8 @@ A IA é um ramo da ciência da computação que desenvolve sistemas capazes de e
 4. **Especialistas**: Profissionais em ciência de dados e aprendizado de máquina.
 5. **Infraestrutura**: Servidores e armazenamento.
 
+---
+
 **Machine Learning (ML)**
 
 ML é uma subárea da IA que ensina computadores a aprenderem com dados e melhorarem com a experiência. Inclui:
@@ -42,6 +44,8 @@ As redes neurais artificiais são inspiradas no funcionamento do cérebro humano
 **Deep Learning**
 
 O deep learning utiliza múltiplas camadas de processamento para aprender representações complexas de dados, sendo uma aplicação avançada de machine learning.
+
+---
 
 **Transformers**
 
@@ -125,6 +129,7 @@ SLMs são essenciais para levar o poder do processamento de linguagem a aplicaç
 - **Escalabilidade:** LLMs são melhores para grandes aplicações, SLMs são ideais para soluções específicas.
 - **Implementação:** SLMs são mais fáceis de implementar em ambientes com restrições de recursos.
 
+---
 
 Para rodar uma LLM de 32 bilhões de parâmetros localmente, você precisaria de um computador com as seguintes especificações:
 
@@ -171,6 +176,7 @@ Para rodar um LLM de 405 bilhões de parâmetros localmente, você precisaria de
 
 Além disso, considere a necessidade de um ambiente distribuído ou em cluster para lidar com cargas de trabalho dessa magnitude de forma eficaz.
 
+---
 
 Comparação entre CPU, GPU, LPU e TPU:
 
@@ -219,3 +225,24 @@ Exemplos de cada tipo de unidade:
 - **Edge TPU (para dispositivos de IoT)**
 
 Esses exemplos representam opções comuns e emergentes em suas respectivas categorias.
+
+---
+
+O 🔥 **Jetson Nano da NVIDIA** 🔥 é um computador compacto e poderoso projetado para projetos de inteligência artificial e computação de borda. Ele é ideal para desenvolvedores que desejam criar soluções de IA e robótica acessíveis e eficientes com um valor aprox. de 250€.
+
+### Características principais:
+
+1. **Processador**: Possui um CPU quad-core ARM Cortex-A57.
+2. **GPU**: Equipada com 128 núcleos CUDA, excelente para tarefas de IA.
+3. **Memória**: 4 GB de RAM LPDDR4.
+4. **Conectividade**: Oferece USB, Ethernet e suporte para câmera CSI.
+5. **Sistema Operacional**: Compatível com Linux, usando a distribuição JetPack da NVIDIA.
+
+### Aplicações comuns:
+
+- **Visão computacional**
+- **Robótica**
+- **Automação residencial**
+- **Drones**
+
+É uma escolha popular para entusiastas e profissionais por sua combinação de potência e preço acessível. Além disso, a comunidade em torno dele é bastante ativa, o que facilita encontrar tutoriais e suporte para projetos.
