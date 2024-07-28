@@ -1,34 +1,60 @@
-**Inteligência Artificial (IA)**
+# 🖥 Inteligência Artificial (IA)
 
 A IA é um ramo da ciência da computação que desenvolve sistemas capazes de executar tarefas que normalmente requerem inteligência humana, como aprendizado, reconhecimento de padrões, tomada de decisões e resolução de problemas. Está presente em diversas aplicações, desde assistentes virtuais até sistemas de recomendação e carros autônomos.
 
-**Categorias de IA**
+### Categorias de IA
 - **Inteligência Artificial Restrita (ANI)**: Focada em tarefas específicas, como vencer um jogo de xadrez ou identificar rostos em fotos.
 - **Inteligência Artificial Geral (AGI)**: Equivalente à inteligência humana em todas as tarefas.
 - **Superinteligência Artificial (ASI)**: Superaria a inteligência humana.
 
-**Componentes para Criar IA**
+### Componentes para Criar IA
 1. **Dados**: Essenciais para o treinamento.
 2. **Algoritmos**: Processam e aprendem com os dados.
 3. **Computação**: Necessária para processar grandes volumes de dados.
 4. **Especialistas**: Profissionais em ciência de dados e aprendizado de máquina.
 5. **Infraestrutura**: Servidores e armazenamento.
 
+### Representação grafica :
+
+<p align="center">
+  <img src="https://i.imgur.com/2QMJU20.png" alt="My cool logo" width="350px"/>
+</p>
+
 ---
 
-**Machine Learning (ML)**
+## ➡️ Machine Learning (ML)
 
-ML é uma subárea da IA que ensina computadores a aprenderem com dados e melhorarem com a experiência. Inclui:
+Machine Learning é uma área da inteligência artificial que permite que sistemas aprendam e façam previsões ou decisões sem serem explicitamente programados. Utiliza algoritmos para identificar padrões em dados e melhorar o desempenho ao longo do tempo com experiência. 
+Inclui:
 - Coleta e pré-processamento de dados.
 - Engenharia de recursos e seleção de modelos.
 - Treinamento e avaliação do modelo.
 - Implantação e manutenção contínua.
 
-**Redes Neurais Artificiais (ANNs)**
+### Exemplo de Ferramentas
+
+1. **TensorFlow:** Biblioteca de código aberto do Google.
+2. **PyTorch:** Popular por sua flexibilidade e facilidade de uso.
+3. **Scikit-learn:** Focado em tarefas de aprendizado supervisionado e não supervisionado.
+4. **Keras:** Interface de alto nível para redes neurais.
+5. **Apache Spark MLlib:** Biblioteca de machine learning para processamento em larga escala.
+
+### Exemplo de Algoritmos
+
+1. **Regressão Linear:** Modelo simples para prever valores contínuos.
+2. **Árvores de Decisão:** Usado para classificação e regressão.
+3. **Redes Neurais:** Inspiradas no cérebro humano, excelentes para padrões complexos.
+4. **Máquinas de Vetores de Suporte (SVM):** Classificação e regressão com margens máximas.
+5. **K-Means:** Algoritmo de clusterização não supervisionado.
+6. **Random Forest:** Conjunto de árvores de decisão para melhorar a precisão.
+
+---
+
+## ➡️ Redes Neurais Artificiais (ANNs)
 
 As redes neurais artificiais são inspiradas no funcionamento do cérebro humano, compostas por neurônios artificiais interconectados. São usadas para tarefas como classificação, reconhecimento de padrões e processamento de imagens.
 
-**Principais Arquiteturas:**
+### Principais Arquiteturas:
 - **Perceptron Simples**: Modelo básico com uma única camada de neurônios.
 - **Multilayer Perceptron (MLP)**: Várias camadas, capaz de resolver problemas mais complexos.
 - **Redes Neurais Convolucionais (CNNs)**: Especializadas em reconhecimento de imagem e processamento de vídeo.
@@ -37,25 +63,43 @@ As redes neurais artificiais são inspiradas no funcionamento do cérebro humano
 - **Transformers**: Para tarefas de linguagem e multimodais.
 - **Redes Generativas Adversariais (GANs)**: Geram dados realistas, como imagens e música.
 
-**Ferramentas Populares:**
-- **TensorFlow**: Biblioteca para criação e treino de modelos, incluindo CNNs, RNNs e transformers.
-- **PyTorch**: Conhecida pela flexibilidade e facilidade de uso.
-
-**Deep Learning**
-
-O deep learning utiliza múltiplas camadas de processamento para aprender representações complexas de dados, sendo uma aplicação avançada de machine learning.
-
 ---
 
-**Transformers**
+## ➡️ Deep Learning
 
-Introduzidos em 2017, os transformers processam sequências de linguagem longas e são usados em tradução automática, geração de texto e muito mais. Exemplos incluem BERT e GPT.
+O deep learning utiliza múltiplas camadas de processamento para aprender representações complexas de dados, sendo uma aplicação avançada de machine learning.
+Redes neurais são a base do deep learning. 
+Assim, o deep learning é uma técnica avançada que utiliza redes neurais profundas para resolver problemas complexos, como reconhecimento de imagem e processamento de linguagem natural.
 
-**Large Language Models (LLMs)**
+### Transformers
+
+Transformers são uma arquitetura de deep learning projetada para lidar com dados sequenciais, como texto. Introduzidos no artigo "Attention is All You Need" em 2017, eles revolucionaram o processamento de linguagem natural (NLP). São amplamente utilizados em várias aplicações de inteligência artificial devido à sua eficácia e flexibilidade.
+Os Transformers têm se tornado padrão em muitas soluções de IA modernas e AI generativas.
+
+### IA Generativa?
+
+Subárea da IA que se concentra em criar modelos capazes de gerar novos conteúdos, ideias ou dados que são coerentes e plausíveis, muitas vezes se assemelhando às saídas geradas por humanos. Isso muitas vezes envolve o uso de modelos de Deep Learning, como redes generativas adversariais (GANs) ou modelos de linguagem.
+Em uma IA generativa, surge o conceito de 💬 **prompt**, que é basicamente um texto de entrada que o humano fornece à IA para iniciar uma conversa ou gerar conteúdo. Assim, o 💬 **prompt** é essencialmente a maneira de comunicar à IA o que o humano quer que ela faça.
+
+## ➡️ Large Language Models (LLMs)
 
 Um Large Language Model é um modelo de inteligência artificial treinado com grandes quantidades de dados textuais para realizar tarefas de processamento de linguagem natural (PLN). Esses modelos conseguem gerar, compreender e traduzir texto, além de responder perguntas e resumir informações.
+Os dados em uma LLM (Language Model) são armazenados de forma indireta, como parte dos pesos do modelo. Aqui está como funciona:
 
-**Principais LLM de 2024**
+### Estrutura de Armazenamento
+
+1. **Pesos do Modelo:** Os dados de treinamento influenciam os pesos das redes neurais, que representam o conhecimento aprendido.
+2. **Vetores Embeddings:** As palavras e frases são convertidas em vetores numéricos que capturam significado e contexto.
+3. **Arquitetura Neural:** As camadas do modelo utilizam esses pesos e vetores para gerar respostas baseadas no input recebido.
+
+### Detalhes
+
+- **Não-Armazenamento Direto:** Os modelos não armazenam dados em formato de texto literal, mas em padrões numéricos aprendidos.
+- **Generalização:** O modelo aprende a generalizar a partir dos dados, permitindo gerar respostas novas e contextuais.
+
+Esse método de armazenamento permite que as LLMs respondam de maneira inteligente a uma variedade de 💬 **prompts**.
+
+### Exemplos de LLM em 2024
 - Claude 3 (Anthropic)
 - LLaMA (Meta)
 - Mistral (Mistral AI)
@@ -63,33 +107,33 @@ Um Large Language Model é um modelo de inteligência artificial treinado com gr
 - Gemma e Gemini (Google)
 - Grok (xAI)
 
-**Small Language Models (SLMs)**
+## ➡️ Small Language Models (SLMs)
 
 Os SLMs são versões mais compactas de modelos de linguagem treinados para executar tarefas específicas de processamento de linguagem natural (PLN), com menos recursos computacionais.
 
-**Características:**
+### Características:
 - **Eficiência**: Consomem menos memória e poder de processamento.
 - **Rapidez**: Oferecem respostas mais rápidas devido ao menor tamanho.
 - **Customização**: Podem ser facilmente adaptados para tarefas específicas.
 
-**Vantagens:**
+### Vantagens:
 - **Implementação em Dispositivos Móveis**: Ideais para aplicações em smartphones e dispositivos IoT.
 - **Custos Reduzidos**: Menos exigentes em termos de infraestrutura.
 - **Treinamento e Atualização Mais Rápidos**: Facilitam o processo de ajuste e melhorias contínuas.
 
-**Aplicações Comuns:**
+### Aplicações Comuns:
 - Chatbots simples.
 - Assistentes virtuais em dispositivos limitados.
 - Sistemas de resposta automática de emails.
 
-**Exemplos de SLMs:**
+### Exemplos de SLMs:
 - **DistilBERT**: Versão menor do BERT, mantendo boa parte do desempenho.
 - **TinyBERT**: Outra variante compacta do BERT, otimizada para velocidade e eficiência.
 
 SLMs são essenciais para levar o poder do processamento de linguagem a aplicações com restrições de recursos, permitindo que a inteligência artificial seja amplamente acessível.
 
 
-**Large Language Models (LLMs) vs. Small Language Models (SLMs)**
+## ➡️ Large Language Models (LLMs) vs. Small Language Models (SLMs)
 
 **Large Language Models (LLMs):**
 
@@ -131,7 +175,9 @@ SLMs são essenciais para levar o poder do processamento de linguagem a aplicaç
 
 ---
 
-Para rodar uma LLM de 32 bilhões de parâmetros localmente, você precisaria de um computador com as seguintes especificações:
+## 📌 Curiosidades
+
+🖐🏼 Para rodar uma LLM de **32 bilhões** de parâmetros localmente, você precisaria de um computador com as seguintes especificações:
 
 1. **GPU Potente:**
    - Placas como NVIDIA RTX 3090 ou superiores, preferencialmente com mais de 24 GB de VRAM.
@@ -154,7 +200,9 @@ Para rodar uma LLM de 32 bilhões de parâmetros localmente, você precisaria de
 
 Essas especificações ajudam a garantir que o modelo funcione de forma eficiente, embora otimizações adicionais possam ser necessárias para ajustar o desempenho.
 
-Para rodar um LLM de 405 bilhões de parâmetros localmente, você precisaria de um computador com especificações ainda mais avançadas:
+---
+
+🖐🏼 Para rodar um LLM de **405 bilhões** de parâmetros localmente, você precisaria de um computador com especificações ainda mais avançadas:
 
 1. **GPU de Alta Capacidade:**
    - Placas como NVIDIA A100 ou H100 com 80 GB de VRAM ou mais, preferencialmente em configurações multi-GPU.
@@ -178,7 +226,7 @@ Além disso, considere a necessidade de um ambiente distribuído ou em cluster p
 
 ---
 
-Comparação entre CPU, GPU, LPU, NPU e TPU:
+## 🖐🏼 CPU, GPU, LPU, NPU e TPU:
 
 ### CPU (Central Processing Unit)
 - **Função:** Unidade de processamento geral em computadores.
