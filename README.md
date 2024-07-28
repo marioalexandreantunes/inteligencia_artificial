@@ -178,7 +178,7 @@ Além disso, considere a necessidade de um ambiente distribuído ou em cluster p
 
 ---
 
-Comparação entre CPU, GPU, LPU e TPU:
+Comparação entre CPU, GPU, LPU, NPU e TPU:
 
 ### CPU (Central Processing Unit)
 - **Função:** Unidade de processamento geral em computadores.
@@ -198,11 +198,21 @@ Comparação entre CPU, GPU, LPU e TPU:
 - **Vantagens:** Otimizada para eficiência energética em machine learning.
 - **Desvantagens:** Menos comum e menos suportada atualmente.
 
+### NPU (Neural Processing Unit)
+- **Função:** Redes neurais
+- **Uso:** Dispositivos móveis, inferência de IA
+- **Vantagens:** Processamento de operações de IA
+
 ### TPU (Tensor Processing Unit)
 - **Função:** Desenvolvida pelo Google para acelerar redes neurais.
 - **Uso:** Utilizada principalmente em aplicações de machine learning no Google Cloud.
 - **Vantagens:** Altamente eficiente em cargas de trabalho de deep learning.
 - **Desvantagens:** Limitada a certos ambientes e menos flexível fora de aplicações de ML.
+
+### IPU (Intelligence Processing Unit)
+- **Função:** Processamento de IA
+- **Vantagens:** Flexibilidade e paralelismo extremo
+- **Uso:** Modelos de deep learning complexos, pesquisa em IA
 
 Essas unidades de processamento atendem a diferentes necessidades, desde tarefas gerais (CPU) até processamento intensivo de dados (GPU e TPU), com LPUs sendo uma área emergente focada em machine learning.
 
@@ -223,6 +233,15 @@ Exemplos de cada tipo de unidade:
 ### TPU (Tensor Processing Unit)
 - **Google TPU v4**
 - **Edge TPU (para dispositivos de IoT)**
+
+### IPU (Intelligence Processing Unit)
+- **Graphcore GC200 IPU:** Usado em sistemas de data center para acelerar IA.
+- **Mythic IPU:** Focado em computação de IA de baixa potência e eficiência.
+- **Habana Labs Goya:** Oferece desempenho otimizado para inferência de IA.
+
+### NPU (Neural Processing Unit)
+- **Huawei Kirin NPU:** Usado em dispositivos móveis para acelerar tarefas de IA.
+- **Samsung Exynos NPU:** Integra capacidades de IA em smartphones para processamento eficiente.
 
 Esses exemplos representam opções comuns e emergentes em suas respectivas categorias.
 
