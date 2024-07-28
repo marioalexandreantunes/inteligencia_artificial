@@ -412,3 +412,51 @@ O 🔥 **Jetson Nano da NVIDIA** 🔥 é um computador compacto e poderoso proje
 - **Drones**
 
 É uma escolha popular para entusiastas e profissionais por sua combinação de potência e preço acessível. Além disso, a comunidade em torno dele é bastante ativa, o que facilita encontrar tutoriais e suporte para projetos.
+
+---
+
+## Servidores GPU
+
+Utilizar VPS (Virtual Private Server) com GPUs (Graphics Processing Units) para implantações de IA pode ser uma escolha poderosa, especialmente para aplicações que exigem processamento intensivo, como treinamento de modelos de deep learning ou inferência em tempo real. Aqui estão algumas considerações e vantagens de usar VPS com GPUs para implantações de IA.
+
+### Principais Fornecedores de VPS com GPUs
+
+1. **Amazon Web Services (AWS)**
+   - **EC2 P3 Instances:** GPUs NVIDIA Tesla V100
+   - **EC2 G4 Instances:** GPUs NVIDIA T4
+
+2. **Google Cloud Platform (GCP)**
+   - **Compute Engine:** GPUs NVIDIA Tesla K80, P100, V100, T4
+   - **AI Platform:** Serviço gerenciado com suporte para GPUs
+
+3. **Microsoft Azure**
+   - **NC-Series:** GPUs NVIDIA Tesla K80, P100, V100
+   - **ND-Series:** GPUs NVIDIA Tesla P40
+
+4. **IBM Cloud**
+   - **Virtual Servers for VPC:** GPUs NVIDIA Tesla V100
+
+5. **Oracle Cloud Infrastructure (OCI)**
+   - **Compute Instances with GPUs:** GPUs NVIDIA Tesla P100, V100
+
+
+### Fornecedores de VPS com GPUs 
+
+6. **Paperspace**
+   - Instâncias GPU dedicadas e preemptíveis com GPUs NVIDIA Quadro, Tesla, RTX - RTX4000 0.56/hour
+
+7. **Linode**
+   - **GPU Instances:** GPUs NVIDIA Tesla T4
+
+8. **runpod.io**
+   - Preço pode ir desde $0.13/hr - RTX 3070 - 8GB VRAM
+
+9. **vast.ai**
+    - preço pode ir desde $0.17/hr - RTX 3070 - 8GB VRAM
+
+10. **Hetzner**
+    - para modelos GGML, aluga Hetzner CAX4 no Falkenstein datacenter. 16 ARM vCPU e 32GB of RAM dar-te-á 10 tokens/sec até 33B 5bit.
+
+11. **Modal**
+    - Para modelos GPTQ, aluga Nvidia A10G $1.10/hr, uma unica placa faz 33B (20+ tokens/seg.) ou uma divisão 17,22 suporta 65B em dois cartões (5 tokens/seg.)
+
