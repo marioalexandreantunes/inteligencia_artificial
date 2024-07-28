@@ -459,4 +459,6 @@ Utilizar VPS (Virtual Private Server) com GPUs (Graphics Processing Units) para 
 
 11. **Modal**
     - Para modelos GPTQ, aluga Nvidia A10G $1.10/hr, uma unica placa faz 33B (20+ tokens/seg.) ou uma divisão 17,22 suporta 65B em dois cartões (5 tokens/seg.)
+   
+12. **huggingface.co**
 
