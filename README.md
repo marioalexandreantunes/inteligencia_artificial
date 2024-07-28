@@ -185,7 +185,7 @@ Mais importante porque se deve usar este método é para a privacidade dos dados
 
 ### LM Studio
 
-[LM Studio](https://lmstudio.ai/) é uma plataforma ou ferramenta que facilita o treino e ajuste fino de modelos de linguagem natural. Como utilizá-lo:
+📀 [LM Studio](https://lmstudio.ai/) é uma plataforma ou ferramenta que facilita o treino e ajuste fino de modelos de linguagem natural. Como utilizá-lo:
 1. Configuração Inicial
 2. Coleta e Preparo de Dados
 3. Treinamento do Modelo
@@ -193,7 +193,7 @@ Mais importante porque se deve usar este método é para a privacidade dos dados
 
 ### Anything LLM
 
-[Anything LLM](https://anythingllm.com/) é uma plataforma que facilita a construção, ajuste fino e implantação de modelos de linguagem natural. Como usá-la:
+📀 [Anything LLM](https://anythingllm.com/) é uma plataforma que facilita a construção, ajuste fino e implantação de modelos de linguagem natural. Como usá-la:
 1. Instalação e Configuração
 2. Treinamento e Ajuste Fino
 3. Implantação
@@ -203,6 +203,74 @@ Utilizando ferramentas como LM Studio e Anything LLM, é possível criar, ajusta
 ### Videos de ajuda
 
 🔎 [Youtube](https://www.youtube.com/results?search_query=+lm+studio+e+anything+llm+dados+proprios)
+
+### Fine Tunning de modelos LLM?
+
+O “fine-tuning” de um modelo de LLM (Large Language Model) é como dar um “treino especial” para que ele se torne especialista em uma tarefa específica. Imagine que você tem um super-herói com muitos poderes, mas você o treina para ser um detetive especialista em desvendar crimes. O “fine-tuning” faz isso com LLMs, usando dados específicos da sua área de interesse para que ele aprenda a realizar tarefas complexas com mais precisão e criatividade, como escrever textos no estilo de um autor específico, traduzir idiomas com mais naturalidade ou gerar código de programação para diferentes aplicações. É como dar um toque final para que o LLM se torne a ferramenta perfeita para as suas necessidades!
+
+### Videos de ajuda
+
+🔎 [Youtube](https://www.youtube.com/results?search_query=como+fazer+finetunning+llm+)
+
+--- 
+
+### 1. Fine-Tuning
+
+**O que é:**
+Fine-tuning é o processo de ajustar um modelo de linguagem pré-treinado em um conjunto de dados específico para melhorar seu desempenho em tarefas ou domínios particulares. O modelo é treinado adicionalmente com dados relevantes para o domínio de interesse.
+
+**Vantagens:**
+- **Especialização:** Permite que o modelo se especialize em um domínio específico, aprendendo nuances e terminologias que são relevantes para o contexto.
+- **Desempenho em Tarefas Específicas:** Pode melhorar o desempenho em tarefas específicas, como classificação ou geração de texto em um domínio específico.
+- **Controle:** Oferece mais controle sobre o comportamento do modelo, já que o treinamento é personalizado para as necessidades específicas.
+
+**Desvantagens:**
+- **Requer Dados:** Necessita de um conjunto de dados específico e relevante para o treinamento.
+- **Custo Computacional:** O fine-tuning pode ser caro em termos de recursos computacionais e tempo.
+- **Menos Flexível:** Pode ser menos flexível para mudanças rápidas em conhecimento ou para abordar uma ampla gama de tópicos sem re-treinamento adicional.
+
+### 2. Retrieval-Augmented Generation (RAG)
+
+**O que é:**
+RAG combina a recuperação de informações com a geração de texto. O modelo de recuperação busca documentos relevantes, e o modelo de geração usa essas informações para produzir respostas mais informadas e contextualmente precisas.
+
+**Vantagens:**
+- **Atualização de Conhecimento:** Pode acessar informações atualizadas e relevantes diretamente do banco de dados.
+- **Flexibilidade:** Pode lidar com uma ampla gama de tópicos sem precisar de fine-tuning extensivo.
+- **Respostas Contextualizadas:** Melhora a precisão e relevância das respostas ao combinar recuperação de informações com geração de texto.
+
+**Desvantagens:**
+- **Complexidade:** Requer a configuração e manutenção de um sistema de recuperação de documentos eficiente.
+- **Dependência de Dados Externos:** A qualidade das respostas depende da qualidade e relevância dos dados recuperados.
+- **Custo Computacional:** A combinação de recuperação e geração pode ser intensiva em termos de recursos.
+
+### 3. Prompt Engineering
+
+**O que é:**
+Prompt engineering envolve a criação de prompts eficazes para guiar o modelo de linguagem a gerar respostas desejadas. Em vez de modificar o modelo, você ajusta a forma como as perguntas ou instruções são apresentadas.
+
+**Vantagens:**
+- **Simplicidade:** Não requer treinamento adicional e pode ser implementado rapidamente.
+- **Flexibilidade:** Pode adaptar-se a diferentes contextos e tarefas apenas alterando os prompts.
+- **Menos Custo Computacional:** Menos intensivo em recursos comparado ao fine-tuning ou RAG.
+
+**Desvantagens:**
+- **Limitações de Precisão:** A eficácia dos prompts pode ser limitada e não garantir sempre respostas precisas ou contextualmente adequadas.
+- **Dependência do Modelo Base:** A qualidade das respostas ainda depende das capacidades do modelo base e pode não ser suficiente para tarefas muito específicas.
+
+### Qual é Melhor?
+
+- **Fine-Tuning:** Melhor para situações em que você precisa de um modelo altamente especializado para tarefas ou domínios específicos e tem recursos para treinamento adicional.
+- **RAG:** Ideal quando você precisa de respostas atualizadas e contextualizadas e pode acessar um grande volume de dados. Também é útil quando a flexibilidade é importante e você deseja integrar informações externas.
+- **Prompt Engineering:** Adequado para tarefas onde você pode ajustar a maneira como faz perguntas ou dá instruções ao modelo. É uma solução rápida e de baixo custo para melhorar o desempenho sem treinamento adicional.
+
+**Escolha com base em suas necessidades:**
+
+- **Para tarefas muito específicas e especializadas** com recursos para treinamento, **fine-tuning** pode ser a melhor escolha.
+- **Para tarefas que se beneficiam de informações atualizadas e amplas** e onde a integração com um banco de dados externo é viável, **RAG** pode ser mais eficaz.
+- **Para ajustes rápidos e flexíveis** sem a necessidade de treinamento adicional, **prompt engineering** é geralmente a abordagem mais prática.
+
+Cada técnica tem suas próprias forças e limitações, e a melhor escolha pode até envolver uma combinação dessas abordagens, dependendo do problema específico que você está tentando resolver.
 
 ---
 
