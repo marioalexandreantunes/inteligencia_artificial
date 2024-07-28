@@ -1,20 +1,20 @@
 # 🖥 Inteligência Artificial (IA)
 
-A IA é um ramo da ciência da computação que desenvolve sistemas capazes de executar tarefas que normalmente requerem inteligência humana, como aprendizado, reconhecimento de padrões, tomada de decisões e resolução de problemas. Está presente em diversas aplicações, desde assistentes virtuais até sistemas de recomendação e carros autônomos.
+A IA é um ramo da ciência da computação que desenvolve sistemas capazes de executar tarefas que normalmente requerem inteligência humana, como aprendizagem, reconhecimento de padrões, tomada de decisões e resolução de problemas. Está presente em diversas aplicações, desde assistentes virtuais até sistemas de recomendação e carros autônomos.
 
 ### Categorias de IA
-- **Inteligência Artificial Restrita (ANI)**: Focada em tarefas específicas, como vencer um jogo de xadrez ou identificar rostos em fotos.
-- **Inteligência Artificial Geral (AGI)**: Equivalente à inteligência humana em todas as tarefas.
-- **Superinteligência Artificial (ASI)**: Superaria a inteligência humana.
+- **Inteligência Artificial Restrita (ANI)**: Focada em tarefas específicas, como vencer um jogo de xadrez ou identificar rostos em fotos. AI Fraca. Nest acategoria que estão as atuais LLMs
+- **Inteligência Artificial Geral (AGI)**: Equivalente à inteligência humana em todas as tarefas. AI Forte.
+- **Superinteligência Artificial (ASI)**: Superaria a inteligência humana. AI Forte.
 
 ### Componentes para Criar IA
 1. **Dados**: Essenciais para o treinamento.
 2. **Algoritmos**: Processam e aprendem com os dados.
 3. **Computação**: Necessária para processar grandes volumes de dados.
-4. **Especialistas**: Profissionais em ciência de dados e aprendizado de máquina.
+4. **Especialistas**: Profissionais em ciência de dados e aprendizagem de máquina.
 5. **Infraestrutura**: Servidores e armazenamento.
 
-### Representação grafica :
+### Representação gráfica :
 
 <p align="center">
   <img src="https://i.imgur.com/2QMJU20.png" alt="My cool logo" width="350px"/>
@@ -28,14 +28,14 @@ Machine Learning é uma área da inteligência artificial que permite que sistem
 Inclui:
 - Coleta e pré-processamento de dados.
 - Engenharia de recursos e seleção de modelos.
-- Treinamento e avaliação do modelo.
+- Treino e avaliação do modelo.
 - Implantação e manutenção contínua.
 
 ### Exemplo de Ferramentas
 
 1. **TensorFlow:** Biblioteca de código aberto do Google.
 2. **PyTorch:** Popular por sua flexibilidade e facilidade de uso.
-3. **Scikit-learn:** Focado em tarefas de aprendizado supervisionado e não supervisionado.
+3. **Scikit-learn:** Focado em tarefas de aprendizagem supervisionado e não supervisionado.
 4. **Keras:** Interface de alto nível para redes neurais.
 5. **Apache Spark MLlib:** Biblioteca de machine learning para processamento em larga escala.
 
@@ -43,7 +43,7 @@ Inclui:
 
 1. **Regressão Linear:** Modelo simples para prever valores contínuos.
 2. **Árvores de Decisão:** Usado para classificação e regressão.
-3. **Redes Neurais:** Inspiradas no cérebro humano, excelentes para padrões complexos.
+3. **Redes Neurais:** Inspiradas no cérebro humano, excelentes para padrões complexos. Mais usado nas atuais LLMs
 4. **Máquinas de Vetores de Suporte (SVM):** Classificação e regressão com margens máximas.
 5. **K-Means:** Algoritmo de clusterização não supervisionado.
 6. **Random Forest:** Conjunto de árvores de decisão para melhorar a precisão.
@@ -60,8 +60,8 @@ As redes neurais artificiais são inspiradas no funcionamento do cérebro humano
 - **Redes Neurais Convolucionais (CNNs)**: Especializadas em reconhecimento de imagem e processamento de vídeo.
 - **Redes Neurais Recorrentes (RNNs)**: Usadas para processamento de linguagem natural e reconhecimento de voz.
 - **Long Short-Term Memory (LSTM)**: Variante das RNNs para dados sequenciais.
-- **Transformers**: Para tarefas de linguagem e multimodais.
-- **Redes Generativas Adversariais (GANs)**: Geram dados realistas, como imagens e música.
+- 📌 **Transformers**: Para tarefas de linguagem e multimodais. os Transformers também têm demonstrado uma grande versatilidade e são utilizados em várias dessas aplicações, muitas vezes complementando ou até substituindo GANs em certas tarefas. Mais usado nas LLMs mais conhecidas.
+- 📌 **Redes Generativas Adversariais (GANs)**: Criar imagens realistas de pessoas, objetos, e cenas que não existem no mundo real. Síntese de imagens médicas para ajudar no treinamento de modelos de diagnóstico, etc. 
 
 ---
 
@@ -172,6 +172,37 @@ SLMs são essenciais para levar o poder do processamento de linguagem a aplicaç
 - **Desempenho vs. Eficiência:** LLMs oferecem desempenho superior, enquanto SLMs são mais eficientes e econômicos.
 - **Escalabilidade:** LLMs são melhores para grandes aplicações, SLMs são ideais para soluções específicas.
 - **Implementação:** SLMs são mais fáceis de implementar em ambientes com restrições de recursos.
+
+---
+
+## Como criar/melhorar um modelo IA com dados próprios e sem custo!?
+
+Melhorar um modelo de IA com seus próprios dados sem custo é viável utilizando ferramentas e recursos gratuitos. A chave é aproveitar bibliotecas de código aberto e plataformas que oferecem computação gratuita, como Google Colab e Kaggle Kernels. Além disso, ferramentas como Streamlit e Flask permitem que você implante seu modelo de maneira simples e acessível.
+
+O **LM Studio** e o **Anything LLM** são ferramentas que podem facilitar o processo de criação e implantação de modelos de linguagem natural. Vamos ver como você pode usá-las para criar seu próprio modelo de IA com dados próprios e sem custos.
+
+Mais importante porque se deve usar este método é para a privacidade dos dados que para muitas empresas é muito importante.
+
+### LM Studio
+
+[LM Studio](https://lmstudio.ai/) é uma plataforma ou ferramenta que facilita o treino e ajuste fino de modelos de linguagem natural. Como utilizá-lo:
+1. Configuração Inicial
+2. Coleta e Preparo de Dados
+3. Treinamento do Modelo
+4. Avaliação e Ajustes
+
+### Anything LLM
+
+[Anything LLM](https://anythingllm.com/) é uma plataforma que facilita a construção, ajuste fino e implantação de modelos de linguagem natural. Como usá-la:
+1. Instalação e Configuração
+2. Treinamento e Ajuste Fino
+3. Implantação
+
+Utilizando ferramentas como LM Studio e Anything LLM, é possível criar, ajustar e implantar modelos de IA com seus próprios dados de maneira eficiente e gratuita. Certifique-se de seguir as documentações oficiais dessas ferramentas para detalhes específicos e melhores práticas.
+
+### Videos de ajuda
+
+🔎 [Youtube](https://www.youtube.com/results?search_query=+lm+studio+e+anything+llm+dados+proprios)
 
 ---
 
