@@ -299,14 +299,14 @@ Prepare-se para um futuro onde a IA esteja mais presente do que nunca!
 * Robustness contra ataques para garantir segurança e confiabilidade.
 
 ### Deep Learning em novas áreas:
-
+                              
 * Revolucionando ciência de dados, pesquisa, engenharia e manufatura.
-* Expandindo fronteiras da arte e criatividade com IA como ferramenta.
+* Expandindo fronteiras da arte e criatividade com IA como ferramenta.                                      
 
 ### Deep Learning como serviço:
 
 * Plataformas de IA com acesso fácil a modelos e ferramentas.
-* Serviços de inferência para processamento de dados em tempo real.
+* Serviços de inferência para processamento de dados em tempo real. Hugging Face, Nvidia NIM, OpenAI, Groq, Perplexity Labs, Fireworks AI e Cloudflare são alguns dos serviços que permitem integrar modelos avançados de IA em aplicações
 
 ### Automação e Agentes AI:
 
