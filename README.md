@@ -1,4 +1,4 @@
-# 🖥 Inteligência Artificial (IA)
+# 🖥 Entendendo as Bases da Inteligência Artificial (AI) 
 
 A IA é um ramo da ciência da computação que desenvolve sistemas capazes de executar tarefas que normalmente requerem inteligência humana, como aprendizagem, reconhecimento de padrões, tomada de decisões e resolução de problemas. Está presente em diversas aplicações, desde assistentes virtuais até sistemas de recomendação e carros autônomos.
 
