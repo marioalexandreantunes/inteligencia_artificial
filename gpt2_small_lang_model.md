@@ -31,6 +31,8 @@ Um **dataset** pode ser uma forma de tabela de perguntas e respostas e em forma 
 
 Verifica se já não há um dataset que possas melhorar e usar, https://huggingface.co/datasets
 
+👉 [YouTube](https://www.youtube.com/results?search_query=como+fazer+datasets+para+llm) mais videos sobre datasets
+
 Exemplo ficheiro json com tema de futebol:
 ```
 [
