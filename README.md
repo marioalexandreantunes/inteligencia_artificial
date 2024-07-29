@@ -233,6 +233,12 @@ Fine-tuning é o processo de ajustar um modelo de linguagem pré-treinado em um 
 
 **O que é:**
 RAG combina a recuperação de informações com a geração de texto. O modelo de recuperação busca documentos relevantes, e o modelo de geração usa essas informações para produzir respostas mais informadas e contextualmente precisas.
+Imagine um sistema que combina o poder do machine learning com a capacidade de buscar e combinar informações de fontes externas. 
+
+**Pipeline:**
+- Input: O usuário faz uma pergunta.
+- Retrieval: O sistema busca documentos ou fragmentos relevantes.
+- Generation: O modelo gera uma resposta usando as informações recuperadas.
 
 **Vantagens:**
 - **Atualização de Conhecimento:** Pode acessar informações atualizadas e relevantes diretamente do banco de dados.
