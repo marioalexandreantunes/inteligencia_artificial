@@ -265,7 +265,119 @@ Neste passo, preparamos o ambiente para o treinamento do modelo GPT-2.
 
 * **Iniciando o treinamento:**  O `Trainer` utiliza esses argumentos, juntamente com os datasets e a função de agrupamento de dados (`data_collator`), para gerenciar o processo de treinamento e avaliação do modelo de forma eficiente e controlada.
 
+## 🔨 Configurar o trainer e iniciar o treinamento
 
+```python
+	trainer = Trainer(
+	    model=model,
+	    args=training_args,
+	    train_dataset=train_dataset,
+	    eval_dataset=test_dataset,
+	    data_collator=data_collator
+	)
+	
+	trainer.train()
+```
+
+Este passo envolve a configuração do objeto Trainer da biblioteca transformers.
+
+   - model=model: Especifica o modelo de aprendizado de máquina que será treinado. Esse modelo já deve estar previamente carregado e configurado que será **distilgpt2**
+   - args=training_args: Configurações e parâmetros de treinamento, geralmente um objeto da classe TrainingArguments. Isso pode incluir informações como número de épocas, tamanhos de lote (batch size), taxas de aprendizado e dispositivos a serem usados (CPU/GPU).
+   - train_dataset=train_dataset: O conjunto de dados que será usado para treinar o modelo.
+   - eval_dataset=test_dataset: O conjunto de dados que será usado para avaliar o desempenho do modelo durante o treinamento.
+   - data_collator=data_collator: Um objeto que identifica como os dados devem ser agrupados em lotes (batches) durante o treinamento e a avaliação.
+
+Após a configuração, o treinamento é iniciado com trainer.train(), que ajusta o modelo com base nos dados e parâmetros fornecidos, realizando forward pass, cálculo da perda, backward pass e atualização dos parâmetros do modelo ao longo de várias épocas.
+
+> O forward pass é a etapa em que os dados de entrada são passados pela rede neural, camada por camada, até que uma previsão (ou saída) seja gerada. Ele transforma inputs em outputs.
+
+> O cálculo da perda quantifica o erro das predições da rede comparado aos valores reais, utilizando funções de perda específicas. Este valor é crucial para ajustar os pesos da rede e melhorar a precisão do modelo, mede o quão distante as predições da rede estão dos valores reais.
+
+> O backward pass é um passo importante no treinamento de modelos de inteligência artificial. Nesse passo, o modelo calcula como os parâmetros que ele usou para fazer previsões afetam a precisão das suas respostas. Em seguida, o modelo ajusta esses parâmetros para melhorar a precisão das suas respostas. Isso é feito calculando a diferença entre as respostas do modelo e as respostas corretas, e ajustando os parâmetros para minimizar essa diferença.
+
+> Na atualização de parâmetros, o modelo usa os resultados do backward pass para ajustar os parâmetros da rede. Isso é feito usando um algoritmo especializado chamado otimizador, que aplica uma regra simples para ajustar os parâmetros com base nos resultados do backward pass e na taxa em que o modelo aprende novas informações.
+
+Após o terminus do treinamento irá aparecer na consola:
+```
+	TrainOutput(global_step=800, training_loss=0.2628884120285511, 
+	metrics={'train_runtime': 692.0873, 'train_samples_per_second': 9.211, 
+	'train_steps_per_second': 1.156, 'total_flos': 832883392512000.0, 
+	'train_loss': 0.2628884120285511, 'epoch': 5.0})
+```
+Ele fornece informações sobre o estado do treinamento, incluindo:
+
+* O passo global do treinamento (global_step): 800
+* A perda de treinamento (training_loss): 0.2628884120285511
+* Métricas de desempenho do treinamento, incluindo:
+	+ Tempo de execução do treinamento (train_runtime): 692.0873 segundos
+	+ Número de amostras por segundo (train_samples_per_second): 9.211
+	+ Número de passos por segundo (train_steps_per_second): 1.156
+	+ Número total de operações floating-point (total_flos): 832883392512000.0
+	+ Perda de treinamento (train_loss): 0.2628884120285511
+	+ Época atual (epoch): 5.0
+
+Essas informações podem ser úteis para monitorar o progresso do treinamento e ajustar os parâmetros do modelo para melhorar o desempenho.
+
+## 🔨 Salvar o modelo e tokenizador treinados
+
+```python
+	model.save_pretrained("./gpt2-chatbot")
+	tokenizer.save_pretrained("./gpt2-chatbot")
+```
+
+Após o treinamento do modelo, é crucial salvar tanto o modelo quanto o tokenizador para reutilização futura. Isso é feito utilizando os métodos save_pretrained do GPT2LMHeadModel e GPT2Tokenizer, que armazenam os pesos treinados, configurações, e vocabulário em um diretório especificado, como ./gpt2-chatbot. Salvar esses componentes permite carregá-los posteriormente com from_pretrained, evitando a necessidade de retraining, facilitando o compartilhamento, backup e versionamento do modelo, garantindo eficiência e consistência nas inferências futuras.
+
+## 🔨 Carregar modelo e tokenizador treinados
+
+```python
+	model = GPT2LMHeadModel.from_pretrained("./gpt2-chatbot")
+	tokenizer = GPT2Tokenizer.from_pretrained("./gpt2-chatbot")
+```
+
+Este passo envolve carregar o modelo e o tokenizador treinados usando a função from_pretrained(), que permite reutilizar os pesos ajustados do modelo GPT-2 e as configurações do tokenizador sem precisar retrainar. Isso é essencial para aplicações práticas, como responder perguntas dos usuários em um aplicativo web. O código carrega o modelo e o tokenizador do diretório ./gpt2-chatbot, e inclui uma função gerar_resposta (passo 12) que tokeniza a entrada do usuário, gera uma resposta com o modelo, e decodifica a saída para texto. Este processo garante inferências rápidas e consistentes com o treinamento.
+
+## 🔨 Função para gerar resposta
+
+```python
+	def gerar_resposta(model, tokenizer, input_text, max_length=50, num_return_sequences=1):
+	    inputs = tokenizer.encode(input_text, return_tensors='pt')
+	    attention_mask = [1] * len(inputs[0])
+	    outputs = model.generate(inputs, attention_mask=torch.tensor([attention_mask]), max_length=max_length, num_return_sequences=num_return_sequences, pad_token_id=tokenizer.eos_token_id)
+	    generated_text = [tokenizer.decode(output, skip_special_tokens=True) for output in outputs]
+	    return generated_text
+```
+
+Esta é uma função Python que gera uma resposta baseada em um modelo de linguagem treinado. A função é chamada `gerar_resposta` e tem quatro parâmetros:
+
+* `model`: um modelo de linguagem treinado
+* `tokenizer`: um objeto que é usado para codificar e decodificar texto
+* `input_text`: o texto de entrada que será usado para gerar a resposta
+* `max_length` (opcional): o tamanho máximo da resposta gerada (padrão é 50)
+* `num_return_sequences` (opcional): o número de respostas geradas (padrão é 1)
+
+Aqui está o que a função faz:
+
+1. Codifica o texto de entrada usando o objeto `tokenizer` e armazena o resultado em uma variável chamada `inputs`.
+2. Cria uma máscara de atenção* que é usada para indicar quais tokens do texto de entrada devem ser considerados quando o modelo gera a resposta.
+3. Chama o método `generate` do modelo para gerar a resposta. O método `generate` é usado para gerar texto baseado em um texto de entrada e um modelo de linguagem.
+4. O método `generate` retorna uma lista de saídas, que são as respostas geradas. A função itera sobre essa lista e decodifica cada saída usando o objeto `tokenizer`.
+5. A função remove os tokens especiais (como tokens de início e fim de texto) da resposta gerada usando o método `decode` do objeto `tokenizer`.
+6. A função retorna a lista de respostas geradas.
+
+Em resumo, esta função é usada para gerar respostas baseadas em um modelo de linguagem treinado, com base em um texto de entrada.
+
+> Máscara de atenção* é uma ferramenta usada em modelos de linguagem, especialmente em arquiteturas de transformadores, como GPT-2, para controlar quais tokens (palavras ou sub-palavras) em uma sequência de entrada devem ser considerados (ou “atendidos”) pelo modelo em diferentes etapas de processamento.
+
+
+## 🔨 Exemplo de uso da função de geração de resposta
+
+```python
+	input_text = "What is the term for a foul committed by a player that prevents an opponent from scoring a goal?"
+	resposta = gerar_resposta(model, tokenizer, input_text)
+	print(f"{resposta}")
+```
+
+Essa função é útil para criar chatbots e sistemas de resposta automática que necessitam de geração de texto baseado em modelos de linguagem.
 
 
 
