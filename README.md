@@ -274,6 +274,76 @@ Cada técnica tem suas próprias forças e limitações, e a melhor escolha pode
 
 ---
 
+## 📌 Tendencias
+
+## Deep Learning em 2025: Um Resumo
+
+Prepare-se para um futuro onde a IA esteja mais presente do que nunca! 
+
+### Deep Learning mais acessível e eficiente:
+
+* Modelos menores e mais rápidos para dispositivos móveis e IoT.
+* Edge computing para processamento local e redução de latência. Arquitetura de TI onde os dados do cliente são processados no limite da rede, ou o mais próximo possível da fonte de dados.
+* Hardware especializado tornando a IA mais acessível a todos.
+
+### IA mais confiável e ética:
+
+* Federated Learning para privacidade de dados. É um método de treino de modelos de IA, onde os dados permanecem localizados nos dispositivos originais, e apenas os parâmetros do modelo são compartilhados.
+* Inteligência Interpretada para modelos mais transparentes. Permitir que humanos compreendam como a IA chega a suas previsões.
+* Robustness contra ataques para garantir segurança e confiabilidade.
+
+### Deep Learning em novas áreas:
+
+* Revolucionando ciência de dados, pesquisa, engenharia e manufatura.
+* Expandindo fronteiras da arte e criatividade com IA como ferramenta.
+
+### Deep Learning como serviço:
+
+* Plataformas de IA com acesso fácil a modelos e ferramentas.
+* Serviços de inferência para processamento de dados em tempo real.
+
+### Automação e Agentes AI:
+
+A área da automação e agentes AI está em plena **expansão**, com uma rica variedade de APIs, frameworks e plataformas disponíveis.
+
+* Automação de tarefas complexas e fluxos de trabalho.
+* Assistentes virtuais avançados e agentes inteligentes autônomos.
+* Agentes colaborativos trabalhando em conjunto com humanos.
+
+### Desafios e oportunidades:
+
+* Discussões e regulamentações sobre ética e impacto social da IA.
+* Adaptação do mercado de trabalho e necessidade de novas habilidades.
+* Distribuição equitativa dos benefícios da automação.
+
+A automação, impulsionada pela inteligência artificial, tem o potencial de transformar diversos setores, impactando a necessidade de certos tipos de trabalho.
+
+- **Tarefas Repetitivas e Padronizadas**:
+    - Operadores de Telemarketing: Chatbots e sistemas de atendimento automatizado podem lidar com chamadas simples, agendamentos e respostas a perguntas frequentes.
+    - Digitadores e Transcritores: Softwares de reconhecimento de fala e OCR (Optical Character Recognition) podem automatizar a transcrição de áudio e texto.
+    - Caixa de supermercado: Caixas self-checkout já estão em uso, e sistemas de reconhecimento de imagem podem automatizar a identificação de produtos.
+    - Processamento de dados: Softwares podem automatizar tarefas como entrada de dados, classificação de informações e geração de relatórios.
+
+- **Tarefas que Requerem Análise de Dados Simples**:
+    - Analistas de dados básicos: Softwares podem identificar padrões e tendências em dados, liberando analistas para tarefas mais complexas.
+    - Assistentes administrativos: Softwares podem automatizar tarefas como agendamento de reuniões, gerenciamento de emails e organização de arquivos.
+
+- **Trabalhos Criativos (impacto gradual)**:
+    - Redatores de conteúdo básico: Geração de textos simples, descrições de produtos, roteiros básicos.
+    - Criadores de conteúdo visual: Geração de imagens, design de elementos gráficos simples.
+    - Tradutores: Tradução de textos simples.
+
+- **Tarefas que Podem Ser Realizadas por Robôs**:
+    - Operadores de linha de produção: Robôs industriais podem realizar tarefas repetitivas e perigosas em fábricas.
+    - Motoristas de caminhão: Veículos autônomos podem automatizar entregas e transporte de cargas.
+    - Trabalhadores de construção: Robôs podem auxiliar em tarefas como pintura, soldagem e demolição.
+
+**Em resumo:** 2025 será um ano crucial para o Deep Learning, com avanços significativos em eficiência, confiabilidade e aplicações. A IA se tornará ainda mais integrada em nossas vidas, trazendo oportunidades e desafios que exigirão reflexão e adaptação.
+A IA impactará o mercado de trabalho, mas o nível de impacto é incerto. A adaptação e desenvolvimento de habilidades humanas serão cruciais para o futuro do trabalho. Previsões sobre o impacto do emprego variam, com alguns modelos predizerem aumento de empregos, outros a redução.
+O impacto dependerá de fatores como políticas públicas, adaptação da força de trabalho.
+
+---
+
 ## 📌 Curiosidades
 
 🖐🏼 Para rodar uma LLM de **32 bilhões** de parâmetros localmente, você precisaria de um computador com as seguintes especificações:
