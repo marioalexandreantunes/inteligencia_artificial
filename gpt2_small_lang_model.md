@@ -1,13 +1,16 @@
 # 🖥 Processo de criação de uma Large/Small Language Model (LLM/SLM) do zero.
 
-A tão falada Inteligência Artificial (IA) busca capacitar as máquinas a imitar funções cognitivas humanas. Uma inovação importante nessa área são os modelos de transformadores, utilizados em modelos de linguagem de grande escala (LLMs), como o GPT da OpenAI.
-LLM  identificam e replicam padrões baseados nos dados com os quais foram treinados. Esses modelos utilizam uma estrutura chamada 'transformers' para melhorar a eficiência do treinamento, permitindo que eles funcionem prevendo a próxima palavra em um texto com grande precisão.
-A arquitetura Transformer pode ser dividida em três tipos principais: 
-- modelos Encoder, são usados para tarefas de compreensão de texto (BERT, RoBERTa)
-- modelos Decoder, são usados para geração de texto (GPT)
-- modelos Encoder-Decoder combinam ambas as funcionalidades (T5)
+Este artigo mergulha no mundo da Inteligência Artificial (IA) e modelos de linguagem de grande escala (LLMs/SLMs), como o famoso GPT da OpenAI. 
 
-O objetivo deste artigo é mostrar exatamente essas etapas na prática, permitindo que você crie seu próprio modelo.
+LLMs/SLMs aprendem a imitar funções cognitivas humanas, identificando e replicando padrões em dados de texto.  Eles utilizam uma estrutura inovadora chamada "transformers" para treinar com alta eficiência, prevendo a próxima palavra em uma sequência com precisão impressionante.
+
+O artigo explora três tipos principais de arquiteturas Transformer:
+
+* **Encoder:** Para tarefas de compreensão de texto (ex: BERT, RoBERTa).
+* **Decoder:** Para geração de texto (ex: GPT).
+* **Encoder-Decoder:** Combinando ambas as funcionalidades (ex: T5).
+
+Através de exemplo prático, aprenderá a construir o seu próprio modelo de linguagem com Transformers. 
 
 ---
 
