@@ -222,5 +222,51 @@ test_dataset = train_test_split['test']
     		return batch
 ```
 
+## 🔨 A função `data_collator`:  Organizando os dados para o treinamento eficiente
+
+A função `data_collator` organiza dados tokenizados em batches para treinamento eficiente de modelos de linguagem. Ela converte listas de tokens, máscaras de atenção e rótulos em tensores PyTorch, garantindo que todos os batches tenham a mesma estrutura através de técnicas de padding. Essa organização facilita o processamento computacional, garante consistência no treinamento e permite uma integração simplificada com o Hugging Face Trainer. 
+
+> Tensores PyTorch são estruturas de dados fundamentais similares aos arrays multidimensionais mas com a vantagem adicional de serem otimizados para operações de alto desempenho em GPUs (unidades de processamento gráfico).
+
+## 🔨 Inicializar modelo e argumentos de treinamento
+
+```python
+	model = GPT2LMHeadModel.from_pretrained('distilgpt2')
+	
+	training_args = TrainingArguments(
+	    output_dir='./results',
+	    eval_strategy="epoch",
+	    learning_rate=3e-5,
+	    per_device_train_batch_size=8,
+	    per_device_eval_batch_size=8,
+	    num_train_epochs=5,
+	    weight_decay=0.01,
+	    logging_dir='./logs',
+	    logging_steps=10,
+	)
+```
+
+Neste passo, preparamos o ambiente para o treinamento do modelo GPT-2. 
+
+* **Carregamos o modelo:** Utilizamos `GPT2LMHeadModel.from_pretrained('distilgpt2')` para carregar uma versão otimizada e menor do GPT-2, chamada distilgpt2.
+
+* **Configuramos o treinamento:** Definimos os parâmetros de treinamento usando `TrainingArguments`, controlando aspectos como:
+    * **Saída:** Diretório para salvar os resultados do treinamento.
+    * **Avaliação:** Estratégia para avaliar o desempenho do modelo.
+    * **Taxa de aprendizado:**  Velocidade de ajuste dos parâmetros do modelo.
+    * **Tamanho do batch:** Quantidade de dados processados por vez.
+    * **Número de épocas:**  Número de vezes que todo o dataset é usado para treinamento.
+    * **Decaimento de peso:**  Redução gradual da taxa de aprendizado durante o treinamento.
+    * **Logs:** Diretório para salvar informações sobre o progresso do treinamento.
+    * **Frequência de registro:**  Intervalo de tempo para registrar informações sobre o treinamento.
+
+* **Iniciando o treinamento:**  O `Trainer` utiliza esses argumentos, juntamente com os datasets e a função de agrupamento de dados (`data_collator`), para gerenciar o processo de treinamento e avaliação do modelo de forma eficiente e controlada.
+
+
+
+
+
+
+
 
 
