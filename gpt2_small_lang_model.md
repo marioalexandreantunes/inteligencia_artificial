@@ -58,7 +58,9 @@ Exemplo ficheiro json com tema de futebol:
   }
 ]
 ```
+
 ---
+
 # 🧠 Machine Learning
 
 Para treinar um LLM/SLM, é necessário equipamento especializado, como GPUs ou TPUs de alto desempenho, para processar grandes volumes de dados e realizar cálculos complexos. Neste exemplo, utilizarei o **Google Colab**, que oferece acesso gratuito a GPUs e TPUs , possibilitando um treinamento sem a necessidade de investir em hardware caro.
@@ -69,15 +71,15 @@ Para treinar um LLM/SLM, é necessário equipamento especializado, como GPUs ou 
 
 Aqui estão os passos para criar um Google Colab e habilitar a GPU T4:
 
-### 1. Acesse o Google Colab:**
+### 1. Acesse o Google Colab:
 
 * Vá para o site do Google Colab: [https://colab.research.google.com/](https://colab.research.google.com/)
 
-### 2. Crie um novo Notebook:**
+### 2. Crie um novo Notebook:
 
 * Clique no botão "Novo" para criar um novo notebook.
 
-### 3. Habilite a GPU T4:**
+### 3. Habilite a GPU T4:
 
 * **Clique no menu "Runtime" no topo da tela.**
 * **Selecione "Change runtime type".**
@@ -85,7 +87,7 @@ Aqui estão os passos para criar um Google Colab e habilitar a GPU T4:
 * **Selecione "Tesla T4" como o tipo de GPU.**
 * **Clique em "Save".**
 
-### 4. Verifique se a GPU está habilitada:**
+### 4. Verifique se a GPU está habilitada:
 
 * Execute o seguinte código no seu notebook:
 
