@@ -262,10 +262,19 @@ Neste passo, preparamos o ambiente para o treinamento do modelo GPT-2.
     * **Avaliação:** Estratégia para avaliar o desempenho do modelo.
     * **Taxa de aprendizado:**  Velocidade de ajuste dos parâmetros do modelo.
     * **Tamanho do batch:** Quantidade de dados processados por vez.
-    * **Número de épocas:**  Número de vezes que todo o dataset é usado para treinamento.
-    * **Decaimento de peso:**  Redução gradual da taxa de aprendizado durante o treinamento.
+    * **Número de passagens:**  Número de vezes que todo o dataset é usado para treinamento.
+    * **Decaimento de peso:**  Redução gradual da taxa de aprendisagem durante o treinamento.
     * **Logs:** Diretório para salvar informações sobre o progresso do treinamento.
     * **Frequência de registro:**  Intervalo de tempo para registrar informações sobre o treinamento.
+
+Alguns frameworks de machine learning, como TensorFlow e PyTorch, oferecem suporte à **quantização** de pesos e ativamentos em modelos de Transformer.
+A quantização é uma técnica usada para reduzir a precisão dos números que representam os pesos e ativamentos de uma rede neural. Em vez de usar números de 32 bits (como é comum em muitas implementações), os valores são representados com menos bits, como 8 bits ou até 4 bits. Isso tem várias vantagens:
+
+1. Redução do tamanho do modelo: Um modelo quantizado ocupa menos espaço na memória, o que é útil para implementações em dispositivos com recursos limitados, como smartphones ou dispositivos IoT.
+2. Melhoria na velocidade de inferência: Operações com números de menor precisão podem ser computadas mais rapidamente, o que acelera o tempo de inferência.
+3. Menor consumo de energia: Modelos quantizados consomem menos energia, o que é importante para dispositivos móveis e outros sistemas embarcados.
+
+No Hugging Face e outras plataformas de modelagem, você pode ver modelos quantizados em 8 bits ou 4 bits usados para tarefas como processamento de linguagem natural, visão computacional, entre outros. Estes modelos são frequentemente utilizados em cenários onde a eficiência e a velocidade são cruciais, e onde os dispositivos de execução têm limitações de memória e poder de processamento.
 
 * **Iniciando o treinamento:**  O `Trainer` utiliza esses argumentos, juntamente com os datasets e a função de agrupamento de dados (`data_collator`), para gerenciar o processo de treinamento e avaliação do modelo de forma eficiente e controlada.
 
