@@ -173,29 +173,39 @@ SLMs são essenciais para levar o poder do processamento de linguagem a aplicaç
 - **Escalabilidade:** LLMs são melhores para grandes aplicações, SLMs são ideais para soluções específicas.
 - **Implementação:** SLMs são mais fáceis de implementar em ambientes com restrições de recursos.
 
+---
+
 > O número de parâmetros não é o único fator que determina o desempenho de um modelo. Outros fatores importantes incluem a arquitetura do modelo, os dados de treinamento e os hiperparâmetros.
 
 É como se você estivesse construindo uma casa. O número de parâmetros num modelo de Machine Learning é como a quantidade de tijolos que você usa. 
 
-**Mais tijolos podem te dar uma casa maior e mais complexa, mas não garante que ela seja a melhor casa possível.**
+> Mais tijolos podem te dar uma casa maior e mais complexa, mas não garante que ela seja a melhor casa possível.
 
 A frase que você mencionou significa exatamente isso:
 
-* **Número de parâmetros:** É importante, mas não é o único fator que define o bom desempenho de um modelo.
+## Número de parâmetros:
 
-* **Arquitetura do modelo:** É como o plano da casa. Um bom plano (arquitetura) define como os tijolos (parâmetros) serão organizados para criar uma estrutura funcional e eficiente. 
+É importante, mas não é o único fator que define o bom desempenho de um modelo.
+
+## Arquitetura do modelo:
+
+É como o plano da casa. Um bom plano (arquitetura) define como os tijolos (parâmetros) serão organizados para criar uma estrutura funcional e eficiente. 
 
     * Exemplo: um modelo com muitos parâmetros pode ser ótimo para tarefas complexas, mas péssimo para tarefas simples.
 
-* **Dados de treinamento:** São os materiais de construção. Se usar tijolos de má qualidade, a casa não ficará boa, mesmo com um bom plano.
+## Dados de treinamento:
+
+São os materiais de construção. Se usar tijolos de má qualidade, a casa não ficará boa, mesmo com um bom plano.
 
     * Exemplo: um modelo treinado com dados incompletos ou com erros vai ter desempenho ruim, mesmo com muitos parâmetros.
 
-* **Hiperparâmetros:** São as regras de construção. Definem como os tijolos são colocados, como a casa é pintada, etc.
+## Hiperparâmetros:
+
+São as regras de construção. Definem como os tijolos são colocados, como a casa é pintada, etc.
 
     * Exemplo: a quantidade de camadas, a taxa de aprendizado durante o treinamento, etc.
 
-**Em resumo:**
+### Em resumo:
 
 * **Parâmetros:** Os "blocos de construção" do modelo.
 * **Arquitetura:** O "plano" do modelo.
