@@ -104,11 +104,11 @@ cidade, ano de fundação, títulos da liga, estádio e capacidade do estádio. 
 mas útil para começar a explorar modelos de Machine Learning.
 ```
 
-A quantidade de dados que você usa para treinar um modelo de aprendizado de máquina (ML) pode influenciar em vários aspectos do modelo e do processo de treinamento. Aqui estão alguns exemplos:
+A quantidade de dados que você usa para treinar um modelo de ML pode influenciar em vários aspectos do modelo e o processo de treino. Aqui estão alguns exemplos:
 
 1. **Precisão do modelo**: A quantidade de dados pode afetar a precisão do modelo. Em geral, mais dados podem levar a um modelo mais preciso, pois o modelo pode aprender a capturar padrões mais complexos e variáveis.
-2. **Overfitting**: Se você tiver um conjunto de dados muito pequeno, o modelo pode overfitting (aprendizado excessivo), o que significa que o modelo se torna muito específico para os dados de treinamento e não generaliza bem para novos dados.
-3. **Underfitting**: Se você tiver um conjunto de dados muito grande, o modelo pode underfitting (aprendizado insuficiente), o que significa que o modelo não consegue aprender a capturar os padrões mais complexos nos dados.
+2. **Overfitting**: Se você tiver um conjunto de dados muito pequeno, o modelo pode overfitting (aprendizagem excessiva), o que significa que o modelo se torna muito específico para os dados de treinamento e não generaliza bem para novos dados.
+3. **Underfitting**: Se você tiver um conjunto de dados muito grande, o modelo pode underfitting (aprendizagem insuficiente), o que significa que o modelo não consegue aprender a capturar os padrões mais complexos nos dados.
 4. **Tempo de treinamento**: A quantidade de dados pode afetar o tempo de treinamento do modelo. Mais dados podem levar a um tempo de treinamento mais longo, pois o modelo precisa processar mais dados.
 5. **Computacionalmente mais caro**: Mais dados podem ser computacionalmente mais caros para processar, especialmente se você estiver trabalhando com grandes conjuntos de dados.
 6. **Regularização**: A quantidade de dados pode influenciar a escolha da regularização. Se você tiver um conjunto de dados pequeno, pode ser necessário usar uma regularização mais forte para evitar overfitting.
