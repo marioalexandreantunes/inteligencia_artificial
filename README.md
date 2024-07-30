@@ -175,6 +175,15 @@ SLMs são essenciais para levar o poder do processamento de linguagem a aplicaç
 
 ---
 
+## ➡️ Parametros
+
+Os parâmetros de um modelo de ML são as variáveis que são ajustadas durante o treinamento do modelo para minimizar a perda ou maximizar a precisão. Os parâmetros podem incluir:
+
+Pesos (weights) das conexões entre os neurônios em uma rede neural
+Bias (bias) dos neurônios em uma rede neural
+Coeficientes dos termos em uma equação de regressão
+Parâmetros de regularização (como L1 e L2)
+
 > O número de parâmetros não é o único fator que determina o desempenho de um modelo. Outros fatores importantes incluem a arquitetura do modelo, os dados de treinamento e os hiperparâmetros.
 
 É como se você estivesse construindo uma casa. O número de parâmetros num modelo de Machine Learning é como a quantidade de tijolos que você usa. 
@@ -187,32 +196,20 @@ A frase que você mencionou significa exatamente isso:
 
 É importante, mas não é o único fator que define o bom desempenho de um modelo.
 
-## Arquitetura do modelo:
+### Arquitetura do modelo:
 
 É como o plano da casa. Um bom plano (arquitetura) define como os tijolos (parâmetros) serão organizados para criar uma estrutura funcional e eficiente. 
+- Exemplo: um modelo com muitos parâmetros pode ser ótimo para tarefas complexas, mas péssimo para tarefas simples.
 
-    * Exemplo: um modelo com muitos parâmetros pode ser ótimo para tarefas complexas, mas péssimo para tarefas simples.
-
-## Dados de treinamento:
+### Dados de treinamento:
 
 São os materiais de construção. Se usar tijolos de má qualidade, a casa não ficará boa, mesmo com um bom plano.
+- Exemplo: um modelo treinado com dados incompletos ou com erros vai ter desempenho ruim, mesmo com muitos parâmetros.
 
-    * Exemplo: um modelo treinado com dados incompletos ou com erros vai ter desempenho ruim, mesmo com muitos parâmetros.
-
-## Hiperparâmetros:
+### Hiperparâmetros:
 
 São as regras de construção. Definem como os tijolos são colocados, como a casa é pintada, etc.
-
-    * Exemplo: a quantidade de camadas, a taxa de aprendizado durante o treinamento, etc.
-
-### Em resumo:
-
-* **Parâmetros:** Os "blocos de construção" do modelo.
-* **Arquitetura:** O "plano" do modelo.
-* **Dados de treinamento:** O "material" usado para construir o modelo.
-* **Hiperparâmetros:** As "regras" que controlam o treinamento.
-
-Para um modelo de Machine Learning funcionar bem, todos esses elementos precisam estar bem combinados!
+- Exemplo: a quantidade de camadas, a taxa de aprendizado durante o treinamento, etc.
 
 ---
 
