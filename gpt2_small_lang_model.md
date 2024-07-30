@@ -255,7 +255,23 @@ A função `data_collator` organiza dados tokenizados em batches para treinament
 
 Neste passo, preparamos o ambiente para o treinamento do modelo GPT-2. 
 
-* **Carregamos o modelo:** Utilizamos `GPT2LMHeadModel.from_pretrained('distilgpt2')` para carregar uma versão otimizada e menor do GPT-2, chamada distilgpt2.
+Quando você executa o comando `model = GPT2LMHeadModel.from_pretrained('distilgpt2')`, você está carregando o modelo de linguagem GPT-2, que é uma rede neural treinada para prever as próximas palavras em uma sequência de texto.
+
+Aqui estão alguns dos parâmetros do modelo GPT-2:
+
+* **Número de camadas**: 12
+* **Número de neurônios por camada**: 768
+* **Tamanho da janela de atenção**: 512
+* **Número de heads de atenção**: 12
+* **Taxa de aprendizado**: 1e-4
+* **Número de épocas de treinamento**: 30
+* **Tamanho do batch**: 32
+* **Regularização**: L2 regularization com um peso de 0.1
+* **Dropout**: 0.1
+
+É importante notar que esses parâmetros são os padrões utilizados durante o treinamento do modelo GPT-2. Você pode ajustar esses parâmetros para melhorar o desempenho do modelo em seu problema específico.
+
+Se você quiser saber mais sobre os parâmetros do modelo GPT-2, recomendo que você leia o artigo original sobre o modelo GPT-2, publicado na arXiv em 2019.
 
 * **Configuramos o treinamento:** Definimos os parâmetros de treinamento usando `TrainingArguments`, controlando aspectos como:
     * **Saída:** Diretório para salvar os resultados do treinamento.
