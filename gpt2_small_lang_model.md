@@ -291,15 +291,17 @@ Este passo envolve a configuração do objeto Trainer da biblioteca transformers
    - eval_dataset=test_dataset: O conjunto de dados que será usado para avaliar o desempenho do modelo durante o treinamento.
    - data_collator=data_collator: Um objeto que identifica como os dados devem ser agrupados em lotes (batches) durante o treinamento e a avaliação.
 
-Após a configuração, o treinamento é iniciado com trainer.train(), que ajusta o modelo com base nos dados e parâmetros fornecidos, realizando forward pass, cálculo da perda, backward pass e atualização dos parâmetros do modelo ao longo de várias épocas.
+Após a configuração, o treinamento é iniciado com `trainer.train()`.
 
-> O forward pass é a etapa em que os dados de entrada são passados pela rede neural, camada por camada, até que uma previsão (ou saída) seja gerada. Ele transforma inputs em outputs.
+Etapas de treino são forward pass >> cálculo da perda >> backward pass >> atualização dos parâmetros
 
-> O cálculo da perda quantifica o erro das predições da rede comparado aos valores reais, utilizando funções de perda específicas. Este valor é crucial para ajustar os pesos da rede e melhorar a precisão do modelo, mede o quão distante as predições da rede estão dos valores reais.
+> O forward pass é a etapa em que os dados de entrada são passados pela rede neural, camada por camada, até que uma previsão (ou saída) seja gerada. Ele transforma inputs em outputs. Imagine que você está fornecendo ao modelo uma frase, como "O gato está dormindo". O modelo lê a frase e tenta prever a próxima palavra na frase, com base nas palavras que viu antes. Isso é chamado de **forward pass** porque o modelo está se movendo para frente, processando a frase de entrada e fazendo previsões.
 
-> O backward pass é um passo importante no treinamento de modelos de inteligência artificial. Nesse passo, o modelo calcula como os parâmetros que ele usou para fazer previsões afetam a precisão das suas respostas. Em seguida, o modelo ajusta esses parâmetros para melhorar a precisão das suas respostas. Isso é feito calculando a diferença entre as respostas do modelo e as respostas corretas, e ajustando os parâmetros para minimizar essa diferença.
+> O cálculo da perda quantifica o erro das predições da rede comparado aos valores reais, utilizando funções de perda específicas. Este valor é crucial para ajustar os pesos da rede e melhorar a precisão do modelo, mede o quão distante as predições da rede estão dos valores reais. Se o modelo prevê a palavra correta, a perda é baixa. Se ele prevê uma palavra errada, a perda é alta. O objetivo é minimizar a perda, o que significa que o modelo está melhorando para prever a próxima palavra.
 
-> Na atualização de parâmetros, o modelo usa os resultados do backward pass para ajustar os parâmetros da rede. Isso é feito usando um algoritmo especializado chamado otimizador, que aplica uma regra simples para ajustar os parâmetros com base nos resultados do backward pass e na taxa em que o modelo aprende novas informações.
+> O backward pass é um passo importante no treinamento de modelos de inteligência artificial. Nesse passo, **backward pass** é o oposto do **forward pass**. Em vez de se mover para frente, o modelo se move para trás, ajustando seus parâmetros internos para reduzir a perda. Isso é como o modelo dizendo: "Ah, eu errei! Vou tentar novamente e farei melhor!"
+
+> No Atualização dos Parâmetros durante o backward pass, o modelo atualiza seus parâmetros internos, como pesos e bias de sua rede neural. Esses parâmetros são ajustados com base na diferença entre a saída prevista e a saída real. O objetivo é encontrar o conjunto ótimo de parâmetros que minimize a perda.
 
 Após o terminus do treinamento irá aparecer na consola:
 ```
