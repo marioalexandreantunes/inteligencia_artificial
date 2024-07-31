@@ -224,16 +224,16 @@ Nesta fase é onde terás de ler e aprender a ter os dados necessários e correc
 
 A biblioteca Transformers da Hugging Face oferece uma ampla variedade de modelos pré-treinados que você pode utilizar com o `GPT2Tokenizer.from_pretrained`. Aqui estão **algumas** opções:
 
-1. **gpt2**: O modelo original GPT-2, treinado em um conjunto de dados de 45 GB de texto.
-2. **gpt2-medium**: Uma versão média do modelo GPT-2, treinada em um conjunto de dados de 10 GB de texto.
-3. **gpt2-large**: Uma versão grande do modelo GPT-2, treinada em um conjunto de dados de 300 GB de texto.
-4. **gpt2-xl**: Uma versão extra grande do modelo GPT-2, treinada em um conjunto de dados de 1,2 TB de texto.
-5. **gpt2-125M**: Uma versão do modelo GPT-2 com 125 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto.
-6. **gpt2-355M**: Uma versão do modelo GPT-2 com 355 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto.
-7. **gpt2-774M**: Uma versão do modelo GPT-2 com 774 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto.
-8. **gpt2-125M-uncased**: Uma versão do modelo GPT-2 com 125 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto e sem case sensitivity.
-9. **gpt2-355M-uncased**: Uma versão do modelo GPT-2 com 355 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto e sem case sensitivity.
-10. **gpt2-774M-uncased**: Uma versão do modelo GPT-2 com 774 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto e sem case sensitivity.
+1. **`gpt2`** : O modelo original GPT-2, treinado em um conjunto de dados de 45 GB de texto.
+2. **`gpt2-medium`** : Uma versão média do modelo GPT-2, treinada em um conjunto de dados de 10 GB de texto.
+3. **`gpt2-large`** : Uma versão grande do modelo GPT-2, treinada em um conjunto de dados de 300 GB de texto.
+4. **`gpt2-xl`** : Uma versão extra grande do modelo GPT-2, treinada em um conjunto de dados de 1,2 TB de texto.
+5. **`gpt2-125M`** : Uma versão do modelo GPT-2 com 125 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto.
+6. **`gpt2-355M`** : Uma versão do modelo GPT-2 com 355 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto.
+7. **`gpt2-774M`** : Uma versão do modelo GPT-2 com 774 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto.
+8. **`gpt2-125M-uncased`** : Uma versão do modelo GPT-2 com 125 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto e sem case sensitivity.
+9. **`gpt2-355M-uncased`** : Uma versão do modelo GPT-2 com 355 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto e sem case sensitivity.
+10. **`gpt2-774M-uncased`** : Uma versão do modelo GPT-2 com 774 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto e sem case sensitivity.
 
 Lembre-se de que cada modelo pré-treinado tem suas próprias características e habilidades, e você deve escolher o modelo que melhor se adequare às suas necessidades específicas.
 
