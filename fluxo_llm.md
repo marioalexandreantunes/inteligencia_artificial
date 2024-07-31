@@ -148,6 +148,23 @@ Em resumo, a quantidade de dados que você usa para treinar um modelo de ML pode
 	+ Realizar tarefas de processamento de linguagem natural (e.g. classificação de texto, geração de resumo, etc.)
 	+ Treinar modelos adicionais para tarefas específicas
 
+## 💾 uma LLM/SLM depois de treinada ela melhora com a utiliação?
+
+Sim mas depende de como ela é treinada e utilizada. Aqui estão algumas razões pelas quais uma LLM/SLM pode melhorar com a utilização:
+
+1. **Aprendizagem contínua**: Muitas LLMs/SLMs são treinadas com um conjunto de dados inicial, mas podem aprender a partir de **novos dados** e **feedback* durante a utilização. Isso permite que elas atualizem suas representações de linguagem e melhorem suas habilidades.
+2. **Fine-tuning**: Algumas LLMs/SLMs podem ser fine-tuned para um conjunto específico de tarefas ou domínios. Isso envolve ajustar os parâmetros da rede neural para melhor se adaptar às necessidades específicas da tarefa ou domínio. A fine-tuning pode melhorar significativamente as habilidades da LLM/SLM.
+3. **Adaptabilidade**: Algumas LLMs/SLMs são projetadas para serem adaptáveis, o que significa que elas podem aprender a partir de novos dados e feedback e se adaptar às mudanças no ambiente.
+4. **Feedback**: O feedback do usuário pode ser utilizado para melhorar a performance da LLM/SLM. Por exemplo, se um usuário corrigir erros ou fornecer feedback positivo ou negativo, a LLM pode aprender a partir disso e melhorar suas habilidades.
+5. **Aumento da complexidade**: Algumas LLMs/SLMs podem ser projetadas para lidar com linguagens mais complexas ou domínios mais específicos. A utilização pode ajudar a melhorar a habilidade da LLM em lidar com essas linguagens ou domínios.
+
+No entanto, é importante notar que a melhoria da LLM/SLM com a utilização depende de vários fatores, incluindo:
+
+* A qualidade e a quantidade de dados utilizados para treinar e fine-tune a LLM/SLM.
+* A habilidade do usuário em fornecer feedback e guiar a LLM/SLM para melhorar.
+* A capacidade da LLM/SLM em aprender a partir de novos dados e feedback.
+* A complexidade e a natureza da tarefa ou domínio que a LLM/SLM está sendo utilizada.
+
 ## ❓ Como usar esses 'ficheiros'
 
 Existem várias opções para alojar os ficheiros treinados de saída para uso como API. Aqui estão algumas opções:
