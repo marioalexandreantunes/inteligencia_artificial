@@ -178,8 +178,14 @@ Importação das bibliotecas
 [LINK](https://huggingface.co/docs/transformers/v4.43.3/en/model_doc/gpt2)
 
 Neste passo, importamos as bibliotecas essenciais para manipulação de dados e deep learning. Utilizamos o torch para operações de tensor e computação em GPU.
-A biblioteca transformers para carregar e treinar o modelo GPT-2, incluindo GPT2Tokenizer, GPT2LMHeadModel, Trainer e TrainingArguments.
-O datasets do Hugging Face para preparar e manipular conjuntos de dados.
+
+> [!NOTE]
+> Um tokenizer é uma ferramenta que divide um texto em unidades menores, chamadas de tokens. Tokens podem ser palavras, sílabas, caracteres, etc. O tokenizer é uma etapa importante no processamento de linguagem natural, pois permite que os modelos de linguagem trabalhem com textos de forma mais eficiente.
+> Existem vários tipos de tokenizers, cada um com suas próprias características e habilidades. Alguns tokenizers são projetados para trabalhar com textos em específico, como textos em inglês ou textos em português.
+> Os tokenizers pré-treinados, como o tokenizer do GPT-2, são projetados para trabalhar com textos em geral e são muito eficazes em muitas situações. Eles são também muito fáceis de usar, pois você pode simplesmente carregar o tokenizer pré-treinado e começar a trabalhar com ele.
+
+Importamos a biblioteca transformers para carregar e treinar o modelo GPT-2, incluindo GPT2Tokenizer, GPT2LMHeadModel, Trainer e TrainingArguments.
+O datasets do Hugging Face para preparar e manipular conjuntos de dados (aqui será usado um tokenizer existente).
 A biblioteca padrão json para leitura de arquivos JSON que é o nosso ficheiro de dados, e o pandas para transformar dados JSON em DataFrames para análise e manipulação eficientes. Essas bibliotecas são fundamentais para realizar tarefas de processamento de linguagem natural (NLP) de maneira eficaz.
 
 ## 🔨 Carregar dados do arquivo JSON
@@ -202,7 +208,7 @@ Para garantir a diversidade das informações, usa [crewAI](https://www.crewai.c
 Verifica depois se tens ou não perguntas repetidas! É muito importante não ter perguntas repetidas. Possivelmente terás de criar um código/script que faça isso automaticamente.
 Nesta fase é onde terás de ler e aprender a ter os dados necessários e correctos. O Fine Tuning usará também datasets!
 
-## 🔨 Inicializar tokenizador e preparar dados  
+## 🔨 Inicializar tokenizer e preparar dados  
 
 ```python
 	tokenizer = GPT2Tokenizer.from_pretrained('distilgpt2')
