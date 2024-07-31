@@ -9,12 +9,12 @@
 Aqui quero deixar um exemplo de um ficheiro formato json que pedi ao ChatGPT para fazer com dados sobre futebol Português.
 Como podemos verificar é possivel usar as já existentes AIs para 'preparar' dados para fazermos o nosso proprio modelo.
 
-```batch
+```
 da-me um exemplo de um ficheiro json com dados sobre futebol portugues, não precisa ser muito grande ,
 so com 20 linhas , para usar como dataset para um ML
 ```
 
-```batch
+```
 Claro! Aqui está um exemplo de um ficheiro JSON com dados sobre futebol português, adequado para uso como
 dataset para Machine Learning:
 [
@@ -148,15 +148,15 @@ Em resumo, a quantidade de dados que você usa para treinar um modelo de ML pode
 	+ Realizar tarefas de processamento de linguagem natural (e.g. classificação de texto, geração de resumo, etc.)
 	+ Treinar modelos adicionais para tarefas específicas
 
-## 💾 uma LLM/SLM depois de treinada ela melhora com a utiliação?
+## 💾 uma LLM/SLM depois de treinadas melhoram com a utiliação?
 
 Sim mas depende de como ela é treinada e utilizada. Aqui estão algumas razões pelas quais uma LLM/SLM pode melhorar com a utilização:
 
-1. **Aprendizagem contínua**: Muitas LLMs/SLMs são treinadas com um conjunto de dados inicial, mas podem aprender a partir de **novos dados** e **feedback* durante a utilização. Isso permite que elas atualizem suas representações de linguagem e melhorem suas habilidades.
-2. **Fine-tuning**: Algumas LLMs/SLMs podem ser fine-tuned para um conjunto específico de tarefas ou domínios. Isso envolve ajustar os parâmetros da rede neural para melhor se adaptar às necessidades específicas da tarefa ou domínio. A fine-tuning pode melhorar significativamente as habilidades da LLM/SLM.
-3. **Adaptabilidade**: Algumas LLMs/SLMs são projetadas para serem adaptáveis, o que significa que elas podem aprender a partir de novos dados e feedback e se adaptar às mudanças no ambiente.
-4. **Feedback**: O feedback do usuário pode ser utilizado para melhorar a performance da LLM/SLM. Por exemplo, se um usuário corrigir erros ou fornecer feedback positivo ou negativo, a LLM pode aprender a partir disso e melhorar suas habilidades.
-5. **Aumento da complexidade**: Algumas LLMs/SLMs podem ser projetadas para lidar com linguagens mais complexas ou domínios mais específicos. A utilização pode ajudar a melhorar a habilidade da LLM em lidar com essas linguagens ou domínios.
+- **Aprendizagem contínua**: Muitas LLMs/SLMs são treinadas com um conjunto de dados inicial, mas podem aprender a partir de **novos dados** e **feedback* durante a utilização. Isso permite que elas atualizem suas representações de linguagem e melhorem suas habilidades.-
+-  **Fine-tuning**: Algumas LLMs/SLMs podem ser fine-tuned para um conjunto específico de tarefas ou domínios. Isso envolve ajustar os parâmetros da rede neural para melhor se adaptar às necessidades específicas da tarefa ou domínio. A fine-tuning pode melhorar significativamente as habilidades da LLM/SLM.
+- **Adaptabilidade**: Algumas LLMs/SLMs são projetadas para serem adaptáveis, o que significa que elas podem aprender a partir de novos dados e feedback e se adaptar às mudanças no ambiente.
+- **Feedback**: O feedback do usuário pode ser utilizado para melhorar a performance da LLM/SLM. Por exemplo, se um usuário corrigir erros ou fornecer feedback positivo ou negativo, a LLM pode aprender a partir disso e melhorar suas habilidades.
+- **Aumento da complexidade**: Algumas LLMs/SLMs podem ser projetadas para lidar com linguagens mais complexas ou domínios mais específicos. A utilização pode ajudar a melhorar a habilidade da LLM em lidar com essas linguagens ou domínios.
 
 No entanto, é importante notar que a melhoria da LLM/SLM com a utilização depende de vários fatores, incluindo:
 
@@ -169,11 +169,11 @@ No entanto, é importante notar que a melhoria da LLM/SLM com a utilização dep
 
 Existem várias opções para alojar os ficheiros treinados de saída para uso como API. Aqui estão algumas opções:
 
-1. **Servidor próprio**: você pode hospedar os ficheiros em um servidor próprio, utilizando tecnologias como Apache, Nginx ou IIS. Isso permite que você tenha controle total sobre a infraestrutura e a segurança.
-2. **Servidores de nuvem**: você pode utilizar serviços de nuvem como AWS S3, Google Cloud Storage ou Microsoft Azure Blob Storage para armazenar e servir os ficheiros. Esses serviços oferecem escalabilidade, segurança e facilidade de uso.
-3. **Plataformas de API**: você pode utilizar plataformas de API como AWS API Gateway, Google Cloud Endpoints ou Microsoft Azure API Management para criar e gerenciar APIs. Essas plataformas oferecem recursos como autenticação, autorização e monitoramento.
-4. **Serviços de armazenamento de dados**: você pode utilizar serviços de armazenamento de dados como MongoDB, Cassandra ou PostgreSQL para armazenar e servir os ficheiros. Esses serviços oferecem escalabilidade, segurança e facilidade de uso.
-5. **Serviços de computação em nuvem**: você pode utilizar serviços de computação em nuvem como AWS Lambda, Google Cloud Functions ou Microsoft Azure Functions para executar o modelo de linguagem e servir os resultados como API. Esses serviços oferecem escalabilidade, segurança e facilidade de uso.
+- **Servidor próprio**: você pode hospedar os ficheiros em um servidor próprio, utilizando tecnologias como Apache, Nginx ou IIS. Isso permite que você tenha controle total sobre a infraestrutura e a segurança.
+- **Servidores de nuvem**: você pode utilizar serviços de nuvem como AWS S3, Google Cloud Storage ou Microsoft Azure Blob Storage para armazenar e servir os ficheiros. Esses serviços oferecem escalabilidade, segurança e facilidade de uso.
+- **Plataformas de API**: você pode utilizar plataformas de API como AWS API Gateway, Google Cloud Endpoints ou Microsoft Azure API Management para criar e gerenciar APIs. Essas plataformas oferecem recursos como autenticação, autorização e monitoramento.
+- **Serviços de armazenamento de dados**: você pode utilizar serviços de armazenamento de dados como MongoDB, Cassandra ou PostgreSQL para armazenar e servir os ficheiros. Esses serviços oferecem escalabilidade, segurança e facilidade de uso.
+- **Serviços de computação em nuvem**: você pode utilizar serviços de computação em nuvem como AWS Lambda, Google Cloud Functions ou Microsoft Azure Functions para executar o modelo de linguagem e servir os resultados como API. Esses serviços oferecem escalabilidade, segurança e facilidade de uso.
 
 ### Quando escolher uma opção, considere fatores como:
 
@@ -183,6 +183,7 @@ Existem várias opções para alojar os ficheiros treinados de saída para uso c
 * Custos: você precisará considerar os custos associados à escolha da opção, incluindo custos de armazenamento, processamento e transferência de dados.
 * Facilidade de uso: você precisará considerar a facilidade de uso e a documentação da opção escolhida.
 
+> [!NOTE]
 > Os parâmetros de um modelo de linguagem são as variáveis que são ajustadas durante o treinamento do modelo para melhorar sua capacidade de prever a saída correta para uma entrada. Mais parâmetros significam que o modelo tem mais capacidade para aprender e generalizar a partir dos dados de treinamento.
 > 100M a 1B (100 milhões a 1 bilhão) de parâmetros: Esses são os parâmetros típicos de um SLM que é treinado para tarefas de processamento de linguagem natural, como classificação de texto, sentiment analysis e geração de texto.
 10M a 100M (10 milhões a 100 milhões) de parâmetros: Esses são os parâmetros típicos de um SLM que é treinado para tarefas mais específicas, como reconhecimento de entidade ou geração de resumo.
