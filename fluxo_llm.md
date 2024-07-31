@@ -125,8 +125,26 @@ Em resumo, a quantidade de dados que você usa para treinar um modelo de ML pode
 
 ## 🧮 Escolha do Algoritmo ML
 
-* Selecionar um algoritmo de aprendizado de máquina adequado para o problema (e.g. BERT, RoBERTa, etc.)
+* Selecionar um algoritmo de machine learning adequado para o problema (e.g. BERT, RoBERTa, etc.)
 * Configurar os parâmetros do algoritmo (e.g. número de camadas, número de neurônios, etc.)
+
+Muito usado é arquitectrura Transformer, Transformers são uma arquitetura de rede neural que se baseia em autoencoders e é projetada para lidar com linguagens naturais.
+A biblioteca Transformers da Hugging Face oferece uma ampla gama de modelos para diversas tarefas de NLP, cada um com diferentes vantagens e aplicações. Pode escolher o modelo que melhor se adapta às suas necessidades e utilizá-lo com facilidade graças à interface unificada fornecida pela biblioteca.
+[State-of-the-art Machine Learnin]([https://pypi.org/project/transformers/](https://huggingface.co/docs/transformers/index)
+
+### Mas é sempre necessario usar esses modelos pre-treinados?
+
+Não é sempre necessário usar os modelos pré-treinados da biblioteca Transformers da Hugging Face. Embora os modelos pré-treinados sejam muito úteis e eficazes, há situações em que você pode querer treinar um modelo personalizado desde o início.
+
+Aqui estão algumas situações em que você pode querer treinar um modelo personalizado:
+
+1. **Tarefas específicas**: Se você está trabalhando em uma tarefa específica que requer um modelo de linguagem com habilidades únicas, você pode querer treinar um modelo personalizado desde o início.
+2. **Dados limitados**: Se você tem um conjunto de dados limitado, você pode não ter acesso a um conjunto de dados grande o suficiente para treinar um modelo pré-treinado. Nesse caso, você pode querer treinar um modelo personalizado desde o início.
+3. **Requisitos de performance**: Se você tem requisitos de performance específicos, como precisão ou velocidade, você pode querer treinar um modelo personalizado desde o início para atender a esses requisitos.
+4. **Propriedade intelectual**: Se você está trabalhando em um projeto que requer propriedade intelectual, você pode querer treinar um modelo personalizado desde o início para evitar a dependência de modelos pré-treinados.
+5. **Aprendizado contínuo**: Se você está trabalhando em um projeto que requer aprendizado contínuo, você pode querer treinar um modelo personalizado desde o início para adaptar-se às mudanças nos dados e nos requisitos.
+
+No entanto, é importante notar que treinar um modelo personalizado desde o início pode ser um processo mais complexo e demorar mais tempo do que utilizar um modelo pré-treinado. Além disso, os modelos pré-treinados podem ser muito eficazes e podem atender às suas necessidades em muitas situações.
 
 ## 🏋️ Etapas de Treinamento
 
