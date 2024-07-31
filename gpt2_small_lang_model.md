@@ -112,6 +112,7 @@ Aqui estão os passos para criar um Google Colab e habilitar a GPU T4:
 ```
 
 A biblioteca transformers da Hugging Face oferece modelos de linguagem pré-treinados como GPT-2, BERT e T5 para tarefas como geração de texto, resposta a perguntas e tradução. É fácil de usar e permite treinar ou ajustar modelos para necessidades específicas. É uma ferramenta essencial para aplicar inteligência artificial em linguagem natural. A biblioteca torch é usada para computação e treinamento eficiente, e a biblioteca datasets é usada para manipular nossos dados de treino.
+
 Aqui está um resumo dos modelos mais populares da biblioteca Transformers da Hugging Face:
 
 1. BERT (Bidirectional Encoder Representations from Transformers)
@@ -174,6 +175,8 @@ Importação das bibliotecas
 	  import pandas as pd
 ```
 
+[LINK](https://huggingface.co/docs/transformers/v4.43.3/en/model_doc/gpt2)
+
 Neste passo, importamos as bibliotecas essenciais para manipulação de dados e deep learning. Utilizamos o torch para operações de tensor e computação em GPU.
 A biblioteca transformers para carregar e treinar o modelo GPT-2, incluindo GPT2Tokenizer, GPT2LMHeadModel, Trainer e TrainingArguments.
 O datasets do Hugging Face para preparar e manipular conjuntos de dados.
@@ -219,7 +222,22 @@ Nesta fase é onde terás de ler e aprender a ter os dados necessários e correc
 	tokenized_dataset = tokenize_dataset(dataset)
 ```
 
-**[distilgpt2](https://huggingface.co/distilbert/distilgpt2)** é um modelo de língua **inglesa pré-treinado** gerador de texto baseado no modelo GPT-2 (Generative Pre-trained Transformer 2), que é uma das melhores opções para a geração de texto natural. Ele foi projetado para ser mais eficiente e fácil de usar do que o modelo original, tornando-o uma opção popular entre os desenvolvedores que buscam treinar modelos de linguagem Decoders (GPT). Exitem outros modelos como BART, ELECTRA ou T5.
+A biblioteca Transformers da Hugging Face oferece uma ampla variedade de modelos pré-treinados que você pode utilizar com o `GPT2Tokenizer.from_pretrained`. Aqui estão **algumas** opções:
+
+1. **gpt2**: O modelo original GPT-2, treinado em um conjunto de dados de 45 GB de texto.
+2. **gpt2-medium**: Uma versão média do modelo GPT-2, treinada em um conjunto de dados de 10 GB de texto.
+3. **gpt2-large**: Uma versão grande do modelo GPT-2, treinada em um conjunto de dados de 300 GB de texto.
+4. **gpt2-xl**: Uma versão extra grande do modelo GPT-2, treinada em um conjunto de dados de 1,2 TB de texto.
+5. **gpt2-125M**: Uma versão do modelo GPT-2 com 125 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto.
+6. **gpt2-355M**: Uma versão do modelo GPT-2 com 355 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto.
+7. **gpt2-774M**: Uma versão do modelo GPT-2 com 774 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto.
+8. **gpt2-125M-uncased**: Uma versão do modelo GPT-2 com 125 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto e sem case sensitivity.
+9. **gpt2-355M-uncased**: Uma versão do modelo GPT-2 com 355 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto e sem case sensitivity.
+10. **gpt2-774M-uncased**: Uma versão do modelo GPT-2 com 774 milhões de parâmetros, treinada em um conjunto de dados de 10 GB de texto e sem case sensitivity.
+
+Lembre-se de que cada modelo pré-treinado tem suas próprias características e habilidades, e você deve escolher o modelo que melhor se adequare às suas necessidades específicas.
+
+**[distilgpt2](https://huggingface.co/distilbert/distilgpt2)** é um modelo de língua **inglesa pré-treinado** gerador de texto baseado no modelo GPT-2 (Generative Pre-trained Transformer 2), que é uma das melhores opções para a geração de texto natural. Ele foi projetado para ser mais eficiente e fácil de usar do que o modelo original, tornando-o uma opção popular entre os desenvolvedores que buscam treinar modelos de linguagem Decoders (GPT).
 
 Neste passo, inicializamos o tokenizador GPT2Tokenizer do modelo **distilgpt2** e configuramos o token de padding para ser o mesmo que o token de fim de sequência (EOS). Concatenamos perguntas e respostas em uma nova coluna text no DataFrame e definimos uma função de tokenização que aplica padding e truncamento até um comprimento máximo de 512 tokens. Aplicamos esta função de tokenização a cada texto no DataFrame, convertendo-o em tokens. Em seguida, transformamos o DataFrame em um Dataset do Hugging Face, facilitando o processamento eficiente e removendo colunas originais após a tokenização para otimização.
 O token de padding é utilizado para garantir que todas as sequências de entrada em um lote (batch) de dados tenham o mesmo comprimento. Isso é necessário porque os modelos de deep learning, como os Transformers, requerem que as entradas tenham dimensões consistentes para processamento eficiente em paralelo.
