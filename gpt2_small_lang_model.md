@@ -22,8 +22,10 @@ O pré-processamento de dados para modelos de linguagem de grande escala (LLMs/S
 2. Os dados são limpos para remover erros, conteúdo ofensivo ou spam. O texto é então normalizado, o que pode incluir a conversão de todas as letras para minúsculas, remoção de stopwords, e aplicação de técnicas de stemming ou lematização.
 3. Esses 'tokens' são transformados em números através de técnicas como embedding, para que o modelo possa processá-los eficientemente.
 
+> [!NOTE]
 > Um **token** é uma unidade básica de linguagem em um modelo de linguagem geradora, como GPT-2 ou BERT. É uma palavra ou um símbolo que representa uma ideia ou uma informação específica. Por exemplo, "O gato" é um token, e "gato" é um subtoken.
 
+> [!NOTE]
 > Uma técnica de **embedding** é uma abordagem utilizada em machine learning para mapear objetos de diferentes domínios para um espaço vetorial comum. Em outras palavras, ela permite que os modelos de linguagem geradora representem informações de diferentes fontes de dados em um formato comum e fácil de processar.
 
 Lembre-se de que a criação de um **dataset** é uma tarefa desafiadora e requer tempo e esforço. No entanto, com certeza e dedicação, você pode criar um dataset útil para o treinamento do modelo de linguagem ou para outras tarefas específicas.
@@ -323,10 +325,13 @@ Etapas de treino são forward pass >> cálculo da perda >> backward pass >> atua
 
 > [!NOTE]
 > O forward pass é a etapa em que os dados de entrada são passados pela rede neural, camada por camada, até que uma previsão (ou saída) seja gerada. Ele transforma inputs em outputs. Imagine que você está fornecendo ao modelo uma frase, como "O gato está dormindo". O modelo lê a frase e tenta prever a próxima palavra na frase, com base nas palavras que viu antes. Isso é chamado de **forward pass** porque o modelo está se movendo para frente, processando a frase de entrada e fazendo previsões.
+
 > [!NOTE]
 > O cálculo da perda quantifica o erro das predições da rede comparado aos valores reais, utilizando funções de perda específicas. Este valor é crucial para ajustar os pesos da rede e melhorar a precisão do modelo, mede o quão distante as predições da rede estão dos valores reais. Se o modelo prevê a palavra correta, a perda é baixa. Se ele prevê uma palavra errada, a perda é alta. O objetivo é minimizar a perda, o que significa que o modelo está melhorando para prever a próxima palavra.
+
 > [!NOTE]
 > O backward pass é um passo importante no treinamento de modelos de inteligência artificial. Nesse passo, **backward pass** é o oposto do **forward pass**. Em vez de se mover para frente, o modelo se move para trás, ajustando seus parâmetros internos para reduzir a perda. Isso é como o modelo dizendo: "Ah, eu errei! Vou tentar novamente e farei melhor!"
+
 > [!NOTE]
 > No Atualização dos Parâmetros durante o backward pass, o modelo atualiza seus parâmetros internos, como pesos e bias de sua rede neural. Esses parâmetros são ajustados com base na diferença entre a saída prevista e a saída real. O objetivo é encontrar o conjunto ótimo de parâmetros que minimize a perda.
 
