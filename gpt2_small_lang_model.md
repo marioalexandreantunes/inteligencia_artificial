@@ -1,6 +1,6 @@
 # 🖥 Processo de criação de uma Large/Small Language Model (LLM/SLM) do zero.
 
-Este artigo mergulha no mundo da Inteligência Artificial (IA) e modelos de linguagem de grande escala (LLMs/SLMs), como o famoso GPT da OpenAI. 
+Este artigo mergulha no mundo da Inteligência Artificial (AI) e modelos de linguagem de grande escala (LLMs/SLMs), como o famoso GPT da OpenAI. 
 
 LLMs/SLMs aprendem a imitar funções cognitivas humanas, identificando e replicando padrões em dados de texto.  Eles utilizam uma estrutura inovadora chamada "transformers" para treinar com alta eficiência, prevendo a próxima palavra em uma sequência com precisão impressionante.
 
@@ -106,7 +106,7 @@ Aqui estão os passos para criar um Google Colab e habilitar a GPU T4:
 ## 🔨 Instalação das bibliotecas necessárias
 
 ```batch
-  pip install transformers[torch] datasets torch
+	pip install transformers[torch] datasets torch
 ```
 
 A biblioteca transformers da Hugging Face oferece modelos de linguagem pré-treinados como GPT-2, BERT e T5 para tarefas como geração de texto, resposta a perguntas e tradução. É fácil de usar e permite treinar ou ajustar modelos para necessidades específicas. É uma ferramenta essencial para aplicar inteligência artificial em linguagem natural. A biblioteca torch é usada para computação e treinamento eficiente, e a biblioteca datasets é usada para manipular nossos dados de treino.
@@ -115,10 +115,10 @@ A biblioteca transformers da Hugging Face oferece modelos de linguagem pré-trei
 
 Importação das bibliotecas
 ```python
-  from transformers import GPT2Tokenizer, GPT2LMHeadModel, Trainer, TrainingArguments
-  from datasets import Dataset
-  import json
-  import pandas as pd
+	  from transformers import GPT2Tokenizer, GPT2LMHeadModel, Trainer, TrainingArguments
+	  from datasets import Dataset
+	  import json
+	  import pandas as pd
 ```
 
 Neste passo, importamos as bibliotecas essenciais para manipulação de dados e deep learning. Utilizamos o torch para operações de tensor e computação em GPU.
@@ -128,13 +128,13 @@ A biblioteca padrão json para leitura de arquivos JSON que é o nosso ficheiro 
 
 ## 🔨 Carregar dados do arquivo JSON
 ```python
-  def load_data(file_path):
-    with open(file_path, 'r') as file:
-    data = json.load(file)
-    return pd.DataFrame(data)
-  
-  file_path = '/content/dataset.json'
-  df = load_data(file_path)
+	  def load_data(file_path):
+	    with open(file_path, 'r') as file:
+	    data = json.load(file)
+	    return pd.DataFrame(data)
+	  
+	  file_path = '/content/dataset.json'
+	  df = load_data(file_path)
 ```
 
 No colab ao lado esquerdo folder icon, '/content' é o root, carrega o ficheiro para lá!
@@ -233,6 +233,7 @@ test_dataset = train_test_split['test']
 
 A função `data_collator` organiza dados tokenizados em batches para treinamento eficiente de modelos de linguagem. Ela converte listas de tokens, máscaras de atenção e rótulos em tensores PyTorch, garantindo que todos os batches tenham a mesma estrutura através de técnicas de padding. Essa organização facilita o processamento computacional, garante consistência no treinamento e permite uma integração simplificada com o Hugging Face Trainer. 
 
+> [!NOTE]
 > Tensores PyTorch são estruturas de dados fundamentais similares aos arrays multidimensionais mas com a vantagem adicional de serem otimizados para operações de alto desempenho em GPUs (unidades de processamento gráfico).
 
 ## 🔨 Inicializar modelo e argumentos de treinamento
@@ -320,12 +321,13 @@ Após a configuração, o treinamento é iniciado com `trainer.train()`.
 
 Etapas de treino são forward pass >> cálculo da perda >> backward pass >> atualização dos parâmetros
 
+> [!NOTE]
 > O forward pass é a etapa em que os dados de entrada são passados pela rede neural, camada por camada, até que uma previsão (ou saída) seja gerada. Ele transforma inputs em outputs. Imagine que você está fornecendo ao modelo uma frase, como "O gato está dormindo". O modelo lê a frase e tenta prever a próxima palavra na frase, com base nas palavras que viu antes. Isso é chamado de **forward pass** porque o modelo está se movendo para frente, processando a frase de entrada e fazendo previsões.
-
+> [!NOTE]
 > O cálculo da perda quantifica o erro das predições da rede comparado aos valores reais, utilizando funções de perda específicas. Este valor é crucial para ajustar os pesos da rede e melhorar a precisão do modelo, mede o quão distante as predições da rede estão dos valores reais. Se o modelo prevê a palavra correta, a perda é baixa. Se ele prevê uma palavra errada, a perda é alta. O objetivo é minimizar a perda, o que significa que o modelo está melhorando para prever a próxima palavra.
-
+> [!NOTE]
 > O backward pass é um passo importante no treinamento de modelos de inteligência artificial. Nesse passo, **backward pass** é o oposto do **forward pass**. Em vez de se mover para frente, o modelo se move para trás, ajustando seus parâmetros internos para reduzir a perda. Isso é como o modelo dizendo: "Ah, eu errei! Vou tentar novamente e farei melhor!"
-
+> [!NOTE]
 > No Atualização dos Parâmetros durante o backward pass, o modelo atualiza seus parâmetros internos, como pesos e bias de sua rede neural. Esses parâmetros são ajustados com base na diferença entre a saída prevista e a saída real. O objetivo é encontrar o conjunto ótimo de parâmetros que minimize a perda.
 
 Após o terminus do treinamento irá aparecer na consola:
@@ -397,6 +399,7 @@ Aqui está o que a função faz:
 
 Em resumo, esta função é usada para gerar respostas baseadas em um modelo de linguagem treinado, com base em um texto de entrada.
 
+> [!NOTE]
 > Máscara de atenção* é uma ferramenta usada em modelos de linguagem, especialmente em arquiteturas de transformadores, como GPT-2, para controlar quais tokens (palavras ou sub-palavras) em uma sequência de entrada devem ser considerados (ou “atendidos”) pelo modelo em diferentes etapas de processamento.
 
 
