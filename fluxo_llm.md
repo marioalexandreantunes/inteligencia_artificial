@@ -123,6 +123,10 @@ Em resumo, a quantidade de dados que você usa para treinar um modelo de ML pode
 * Normalização: normalizar a frequência de palavras e tokens (e.g. utilizando o algoritmo TF-IDF)
 * Conversão de texto para formato de entrada para o modelo (e.g. sequência de tokens)
 
+> Um tokenizer é uma ferramenta que divide um texto em unidades menores, chamadas de tokens. Tokens podem ser palavras, sílabas, caracteres, etc. O tokenizer é uma etapa importante no processamento de linguagem natural, pois permite que os modelos de linguagem trabalhem com textos de forma mais eficiente.
+> Os tokenizers pré-treinados, como o tokenizer do GPT-2, são projetados para trabalhar com textos em geral e são muito eficazes em muitas situações. Eles são também muito fáceis de usar, pois você pode simplesmente carregar o tokenizer pré-treinado e começar a trabalhar com ele.
+> Para criar um tokenizer personalizado, você precisa definir as regras para dividir o texto em tokens. Isso pode ser feito utilizando bibliotecas de processamento de linguagem natural, como NLTK ou spaCy.
+
 ## 🧮 Escolha do Algoritmo ML
 
 * Selecionar um algoritmo de machine learning adequado para o problema (e.g. BERT, RoBERTa, etc.)
