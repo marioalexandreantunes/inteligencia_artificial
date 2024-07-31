@@ -179,7 +179,7 @@ Importação das bibliotecas
 
 Neste passo, importamos as bibliotecas essenciais para manipulação de dados e deep learning. Utilizamos o torch para operações de tensor e computação em GPU.
 
-> [!NOTE]
+> [!IMPORTANT]
 > Um tokenizer é uma ferramenta que divide um texto em unidades menores, chamadas de tokens. Tokens podem ser palavras, sílabas, caracteres, etc. O tokenizer é uma etapa importante no processamento de linguagem natural, pois permite que os modelos de linguagem trabalhem com textos de forma mais eficiente.
 > Existem vários tipos de tokenizers, cada um com suas próprias características e habilidades. Alguns tokenizers são projetados para trabalhar com textos em específico, como textos em inglês ou textos em português.
 > Os tokenizers pré-treinados, como o tokenizer do GPT-2, são projetados para trabalhar com textos em geral e são muito eficazes em muitas situações. Eles são também muito fáceis de usar, pois você pode simplesmente carregar o tokenizer pré-treinado e começar a trabalhar com ele.
