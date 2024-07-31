@@ -112,6 +112,57 @@ Aqui estão os passos para criar um Google Colab e habilitar a GPU T4:
 ```
 
 A biblioteca transformers da Hugging Face oferece modelos de linguagem pré-treinados como GPT-2, BERT e T5 para tarefas como geração de texto, resposta a perguntas e tradução. É fácil de usar e permite treinar ou ajustar modelos para necessidades específicas. É uma ferramenta essencial para aplicar inteligência artificial em linguagem natural. A biblioteca torch é usada para computação e treinamento eficiente, e a biblioteca datasets é usada para manipular nossos dados de treino.
+Aqui está um resumo dos modelos mais populares da biblioteca Transformers da Hugging Face:
+
+1. BERT (Bidirectional Encoder Representations from Transformers)
+	- **Descrição**: Um modelo pré-treinado bidirecional para NLP, especializado em compreensão contextual.
+	- **Usos**: Classificação de texto, resposta a perguntas, reconhecimento de entidades nomeadas.
+	- **Exemplo**: `bert-base-uncased`
+
+2. GPT (Generative Pre-trained Transformer)
+	- **Descrição**: Um modelo de geração de texto autoregressivo.
+	- **Usos**: Geração de texto, completamento de texto, chatbots.
+	- **Exemplo**: `gpt2`, `gpt-3.5-turbo`
+
+3. RoBERTa (A Robustly Optimized BERT Pretraining Approach)
+	- **Descrição**: Uma variante de BERT otimizada com mais dados e ajustes de hiperparâmetros.
+	- **Usos**: Tarefas semelhantes ao BERT, com melhor desempenho.
+	- **Exemplo**: `roberta-base`
+
+4. DistilBERT (Distilled version of BERT)
+	- **Descrição**: Uma versão compacta de BERT que é mais rápida e eficiente.
+	- **Usos**: Tarefas de NLP com menor necessidade computacional.
+	- **Exemplo**: `distilbert-base-uncased`
+
+5. T5 (Text-To-Text Transfer Transformer)
+	- **Descrição**: Um modelo que trata todas as tarefas de NLP como problemas de tradução de texto-para-texto.
+	- **Usos**: Tradução, sumarização, geração de texto.
+	- **Exemplo**: `t5-small`, `t5-base`
+
+6. XLNet
+	- **Descrição**: Um modelo autoregressivo que também captura dependências bidirecionais.
+	- **Usos**: Modelos de linguagem com predição bidirecional.
+	- **Exemplo**: `xlnet-base-cased`
+
+7. ALBERT (A Lite BERT)
+	- **Descrição**: Uma versão leve de BERT com menos parâmetros e arquitetura eficiente.
+	- **Usos**: Tarefas de NLP com menor consumo de memória e mais rápidas.
+	- **Exemplo**: `albert-base-v2`
+
+8. Bart (Bidirectional and Auto-Regressive Transformers)
+	- **Descrição**: Um modelo que combina as capacidades de modelos bidirecionais e autoregressivos.
+	- **Usos**: Tradução, sumarização, geração de texto.
+	- **Exemplo**: `facebook/bart-large`
+
+9. Electra (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)
+	- **Descrição**: Um modelo eficiente que aprende a discriminar entre tokens reais e substituídos.
+	- **Usos**: Pré-treino eficiente para tarefas de NLP.
+	- **Exemplo**: `google/electra-small-discriminator`
+
+10. BERTweet
+	- **Descrição**: Um modelo baseado em BERT treinado especificamente em dados do Twitter.
+	- **Usos**: Análise de sentimentos, classificação de texto em tweets.
+	- **Exemplo**: `vinai/bertweet-base`
 
 ## 🔨 Importação das bibliotecas
 
