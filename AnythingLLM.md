@@ -46,5 +46,11 @@ Se o AnythingLLM é uma plataforma para LLMs, as suas aplicações podem incluir
 
 ### 📌 Conclusão
 
-O **AnythingLLM** oferece diversas vantagens para interagir com modelos de linguagem de grande escala. Permite a integração fácil de documentos próprios, páginas web e outros conteúdos, facilitando o acesso a informações relevantes. A funcionalidade de pesquisa na web dos agentes é uma mais-valia, pois permite que os usuários obtenham informações atualizadas e contextualizadas em tempo real. Utilizando a plataforma **openrouter.ai**, é possível ter apenas uma conta de AI inference, acessando todas as LLM conhecidas e gerindo os gastos num único local, com excelente informação sobre cada modelo. Além disso, a plataforma suporta a conversação com documentos, permitindo perguntas e respostas precisas. A interface intuitiva simplifica o processo de configuração e utilização, tornando-a acessível mesmo para utilizadores sem experiência técnica. 
+O **AnythingLLM** oferece diversas vantagens para interagir com modelos de linguagem de grande escala. Permite a integração fácil de documentos próprios, páginas web e outros conteúdos, facilitando o acesso a informações relevantes. A funcionalidade de pesquisa na web dos agentes é uma mais-valia, pois permite que os usuários obtenham informações atualizadas e contextualizadas em tempo real. 
+Além disso, a plataforma suporta a conversação com documentos, permitindo perguntas e respostas precisas. A interface intuitiva simplifica o processo de configuração e utilização, tornando-a acessível mesmo para utilizadores sem experiência técnica. 
 A capacidade de personalizar mensagens e sincronizar automaticamente o conteúdo dos documentos aumenta ainda mais a eficiência e a relevância das interações.
+
+---
+
+Utilizando a plataforma **openrouter.ai**, é possível ter apenas uma conta de AI inference, acessando todas as LLM conhecidas e gerindo os gastos num único local, com excelente informação sobre cada modelo. 
+<img src="https://i.imgur.com/rIaWifQ.png" title="source: imgur.com" />
