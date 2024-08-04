@@ -53,4 +53,9 @@ A capacidade de personalizar mensagens e sincronizar automaticamente o conteúdo
 ---
 
 Utilizando a plataforma **openrouter.ai**, é possível ter apenas uma conta de AI inference, acessando todas as LLM conhecidas e gerindo os gastos num único local, com excelente informação sobre cada modelo. 
-<img src="https://i.imgur.com/rIaWifQ.png" title="source: imgur.com" />
+<p align="center" width="100%">
+<img src="https://i.imgur.com/rIaWifQ.png" title="openrouter.ai activity" />
+</p>
+<p align="center" width="100%">
+<img src="https://img001.prntscr.com/file/img001/KV8k-thLSYGcEteiQrMJwA.png" title="openrouter.ai daily costs" width="400"/>
+</p>
