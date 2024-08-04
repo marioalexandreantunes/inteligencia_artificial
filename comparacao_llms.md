@@ -91,7 +91,7 @@ Resumo os componentes necessários para construir um sistema de chat utilizando 
 
 3. **Base de Dados para Vetores**:
    - **Descrição**: Um sistema de armazenamento para guardar os vetores gerados pelo modelo de embeddings, permitindo buscas rápidas.
-   - **Exemplo**: **Pinecone** ou **Chroma** para indexação e recuperação eficiente de vetores.
+   - **Exemplo**: **Pinecone**, **AstaDB** ou **Chroma** para indexação e recuperação eficiente de vetores.
 
 4. **Módulo de Recuperação (RAG)**:
    - **Descrição**: Um sistema que busca informações relevantes em uma base de dados usando o modelo de embeddings, antes de passar os dados para o LLM.
