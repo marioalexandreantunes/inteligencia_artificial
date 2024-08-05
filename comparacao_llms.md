@@ -105,8 +105,8 @@ Resumo os componentes necessários para construir um sistema de chat utilizando 
 
 1. **Usuário envia uma pergunta** através da interface de usuário.
 2. **O sistema gera um vetor** da pergunta usando o modelo de embeddings.
-3. **O módulo de recuperação** busca documentos relevantes na base de dados de vetores.
-4. **Os documentos recuperados** são passados para o LLM, que gera uma resposta.
+3. **O módulo de recuperação** busca documentos relevantes na base de dados de vetores. Aqui entram os modelos **embeddings** (all-MiniLM-L6-v2)
+4. **Os documentos recuperados** são passados para o LLM, que gera uma resposta. Aqui entram os modelos **LLM** (ChatGPT-4 Mini)
 5. **A resposta é enviada** de volta ao usuário através da interface.
 
 ### Exemplo Simples
