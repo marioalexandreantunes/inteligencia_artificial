@@ -20,6 +20,16 @@ A IA é um ramo da ciência da computação que desenvolve sistemas capazes de e
   <img src="https://i.imgur.com/2QMJU20.png" alt="My cool logo" width="350px"/>
 </p>
 
+## Representação resumida das LLMs mais conhecidas
+
+- AI
+  - Machine Learning
+    - Deep Learning
+      - Redes Neurais Artificiais (ANNs)
+        - Redes Neurais Convolucionais (CNNs): Especializadas em reconhecimento de imagem e vídeo.
+        - Redes Neurais Recorrentes (RNNs): Usadas em processamento de linguagem natural (NLP) e reconhecimento de voz.
+        - **Transformers**: Aplicáveis em tarefas de linguagem e multimodais, como NLP, visão computacional e processamento de áudio. (+ usadasa atualmente)
+
 ---
 
 ## ➡️ Machine Learning (ML)
