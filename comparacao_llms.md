@@ -2,18 +2,18 @@
 
 LLMs são modelos de linguagem treinados em grandes quantidades de texto para compreender e gerar linguagem humana. Eles são frequentemente baseados em arquiteturas de rede neural, como Transformers.
 
-Aqui está a tabela atualizada com uma coluna adicional para "Desempenho e Eficiência (média)":
+Aqui está a tabela atualizada comparação de algumas LLM atuais:
 
 | Modelo                  | Empresa       | Arquitetura         | Algoritmo                 | Parâmetros (aprox.) | Estrutura do Modelo | Desempenho e Eficiência (média) | Multimodal        | Open Source |
-|-------------------------|---------------|---------------------|---------------------------|---------------------|---------------------|-------------------------------|--------------------|-------------|
+|-------------------------|---------------|---------------------|---------------------------|---------------------|---------------------|--------------------------------|--------------------|-------------|
 | Gemini Pro 1.5          | Google        | Transformer         | Autoregressivo            | 1.5 trilhões        | Profundo             | Alta                          | Sim                | Não         |
 | Llama 3.1 (405B)        | Meta          | Transformer         | Autoregressivo            | 405 bilhões         | Profundo             | Alta                          | Não                | Sim         |
+| ChatGPT-4               | OpenAI        | Transformer         | Autoregressivo            | 175 bilhões         | Profundo             | Alta                          | Sim                | Não         |
 | Llama 3.1 D+Sonar (70B) | Meta          | Transformer         | Autoregressivo            | 70 bilhões          | Profundo             | Média                         | Não                | Sim         |
 | Claude 3.5 (Sonnet)     | Anthropic     | Transformer         | Autoregressivo            | 52 bilhões          | Profundo             | Alta                          | Sim                | Não         |
-| ChatGPT                 | OpenAI        | Transformer         | Autoregressivo            | 175 bilhões         | Profundo             | Alta                          | Sim (versão 4)     | Não         |
 | ChatGPT-4 Mini          | OpenAI        | Transformer         | Autoregressivo            | N/D                 | Profundo             | Média                         | Sim                | Não         |
-| Mistral 7B              | Mistral       | Transformer         | Autoregressivo            | 7 bilhões           | Profundo             | Média                         | Não                | Sim         |
 | Gemma 2 (9B)            | Google        | Transformer         | Autoregressivo            | 9 bilhões           | Profundo             | Média                         | Sim                | Não         |
+| Mistral 7B              | Mistral       | Transformer         | Autoregressivo            | 7 bilhões           | Profundo             | Média                         | Não                | Sim         |
 
 
 | Coluna                          | Descrição                                                                                   |
