@@ -1,0 +1,122 @@
+[
+    {
+        "prompt": "O que é domótica?",
+        "completion": " Domótica refere-se ao conjunto de tecnologias que permitem a automação de casas e edifícios."
+    },
+    {
+        "prompt": "Quais são os benefícios da domótica?",
+        "completion": " Os benefícios incluem maior conforto, eficiência energética, segurança e conveniência."
+    },
+    {
+        "prompt": "Como a domótica pode ajudar na economia de energia?",
+        "completion": " A domótica permite o controle automático de luzes, aquecimento e aparelhos, reduzindo o consumo de energia."
+    },
+    {
+        "prompt": "Quais dispositivos são comumente usados em sistemas de domótica?",
+        "completion": " Dispositivos comuns incluem termostatos inteligentes, câmeras de segurança, luzes inteligentes e sensores."
+    },
+    {
+        "prompt": "O que é um assistente virtual em domótica?",
+        "completion": " Um assistente virtual é um software que controla dispositivos inteligentes via voz, como Amazon Alexa ou Google Assistant."
+    },
+    {
+        "prompt": "Como instalar um sistema de domótica em casa?",
+        "completion": " A instalação pode variar, mas geralmente envolve a configuração de hubs, dispositivos e aplicativos para controle."
+    },
+    {
+        "prompt": "Quais são os tipos de protocolos de comunicação usados em domótica?",
+        "completion": " Os principais protocolos incluem Zigbee, Z-Wave, Wi-Fi e Bluetooth."
+    },
+    {
+        "prompt": "O que é um hub de domótica?",
+        "completion": " Um hub é um dispositivo que conecta e controla outros dispositivos inteligentes em uma rede."
+    },
+    {
+        "prompt": "Como a domótica pode aumentar a segurança em casa?",
+        "completion": " Sistemas de domótica podem incluir câmeras de segurança, alarmes e monitoramento remoto, melhorando a segurança."
+    },
+    {
+        "prompt": "É possível controlar dispositivos de domótica pelo smartphone?",
+        "completion": " Sim, a maioria dos sistemas de domótica pode ser controlada via aplicativos em smartphones."
+    },
+    {
+        "prompt": "Quais são as desvantagens da domótica?",
+        "completion": " As desvantagens podem incluir alto custo inicial, dependência de internet e possíveis problemas de privacidade."
+    },
+    {
+        "prompt": "O que são sensores de movimento na domótica?",
+        "completion": " Sensores de movimento detectam a presença de pessoas e podem acionar luzes ou alarmes automaticamente."
+    },
+    {
+        "prompt": "Como a domótica pode ser integrada à iluminação da casa?",
+        "completion": " A iluminação inteligente pode ser programada para acender ou apagar em horários específicos ou com base na presença."
+    },
+    {
+        "prompt": "O que é automação residencial?",
+        "completion": " Automação residencial é o uso de tecnologia para controlar e gerenciar dispositivos em uma casa de forma automática."
+    },
+    {
+        "prompt": "Quais são alguns exemplos de dispositivos de automação da climatização?",
+        "completion": " Termostatos inteligentes e sensores de temperatura são exemplos de dispositivos que controlam a climatização."
+    },
+    {
+        "prompt": "Como a domótica pode ajudar pessoas com mobilidade reduzida?",
+        "completion": " A domótica pode facilitar o controle de dispositivos como luzes e portas, permitindo maior autonomia."
+    },
+    {
+        "prompt": "O que é um termostato inteligente?",
+        "completion": " Um termostato inteligente permite o controle remoto da temperatura da casa através de aplicativos ou assistentes virtuais."
+    },
+    {
+        "prompt": "Como funcionam as luzes inteligentes?",
+        "completion": " Luzes inteligentes podem ser controladas via smartphone ou assistente virtual, permitindo ajustes de brilho e cor."
+    },
+    {
+        "prompt": "Quais são os melhores dispositivos de segurança para domótica?",
+        "completion": " Algumas opções populares incluem câmeras de segurança IP, fechaduras inteligentes e sensores de portas e janelas."
+    },
+    {
+        "prompt": "É seguro utilizar dispositivos de domótica?",
+        "completion": " A segurança pode ser uma preocupação; é importante garantir que dispositivos sejam atualizados e configurados corretamente."
+    },
+    {
+        "prompt": "Quais marcas são populares na domótica?",
+        "completion": " Algumas marcas populares incluem Philips Hue, Nest, Ring e SmartThings."
+    },
+    {
+        "prompt": "O que é integração de dispositivos na domótica?",
+        "completion": " Integração refere-se à capacidade de diferentes dispositivos se comunicarem e funcionarem juntos em um sistema único."
+    },
+    {
+        "prompt": "Como funcionam os assistentes de voz com a domótica?",
+        "completion": " Assistentes de voz podem aceitar comandos para controlar dispositivos, por exemplo, dizendo 'acender luz da sala'."
+    },
+    {
+        "prompt": "Quais são as tendências futuras em domótica?",
+        "completion": " Tendências incluem maior inteligência artificial, integração com IoT e maior foco em sustentabilidade."
+    },
+    {
+        "prompt": "O que é uma fechadura inteligente?",
+        "completion": " Uma fechadura inteligente permite controlar o acesso à sua casa através de smartphones ou códigos digitais."
+    },
+    {
+        "prompt": "Como a automação pode lidar com janelas?",
+        "completion": " Janelas inteligentes podem abrir ou fechar automaticamente com base na temperatura interna ou condições climáticas."
+    },
+    {
+        "prompt": "Pode a domótica melhorar o bem-estar?",
+        "completion": " Sim, sistemas de iluminação e climatização automatizados podem contribuir para um ambiente mais saudável em casa."
+    },
+    {
+        "prompt": "Quais são os custos típicos de um sistema de domótica?",
+        "completion": " Os custos podem variar, mas um sistema básico pode começar em alguns centenas de dólares, dependendo dos dispositivos."
+    },
+    {
+        "prompt": "Como a domótica pode ajudar na rotina diária?",
+        "completion": " A domótica pode programar dispositivos para realizar tarefas automáticas, como ligar luzes ao amanhecer ou regular a temperatura."
+    },
+    {
+        "prompt": "Quais são os desafios da domótica?",
+        "completion": " Desafios incluem a compatibilidade entre dispositivos, a necessidade de manutenção e questões de segurança cibernética."
+    }
+]
