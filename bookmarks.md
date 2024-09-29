@@ -26,6 +26,7 @@
   - **Apresentações**
     - [presentations.ai](https://www.presentations.ai/)
     - [Gamma](https://gamma.app/)
+    - [slidesai](https://www.slidesai.io/pt)
   - **Vídeos**
     - [heygen](https://www.heygen.com/)
     - [synthesia.io](https://www.synthesia.io/)
