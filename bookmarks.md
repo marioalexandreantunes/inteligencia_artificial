@@ -1,0 +1,50 @@
+# Bookmarks
+
+## Bookmarks
+- **IA para tudo**
+  - **Pesquisa AIs**
+    - [There's An AI For That](https://free.theresanaiforthat.com/)
+    - [Supertools](https://supertools.therundown.ai/)
+  - **AIO**
+    - [anakin.ai](https://anakin.ai/)
+    - [Merlin AI](https://www.getmerlin.in/)
+    - [123apps](https://123apps.com/pt/)
+  - **Pesquisa Web**
+    - [Perplexity](https://www.perplexity.ai/)
+    - [komo.ai](https://komo.ai/)
+    - [You.com](https://you.com/)
+    - [Andi](https://andisearch.com/)
+    - [Perplexica - AI Search](https://perplexica.io/)
+    - [OPENPERPLEX](https://openperplex.com/)
+  - **Infogramas**
+    - [Napkin AI](https://www.napkin.ai/)
+    - [Infographic Maker](https://piktochart.com/)
+  - **Sumario YouTube**
+    - [NoteGPT](https://notegpt.io/)
+  - **Sumario Notas**
+    - [Notebooklm](https://notebooklm.google/)
+  - **LLM**
+    - [chatgpt](https://chatgpt.com/)
+    - [anthropic](https://www.anthropic.com/)
+    - [Llama](https://www.llama.com/)
+    - [gemini](https://gemini.google.com/)
+    - [mistral](https://mistral.ai/)
+    - [huggingface.co](https://huggingface.co/)
+  - **Comparador de preço**
+    - [llmprices.dev](https://llmprices.dev/)
+    - [LLM Pricing Comparison](https://anotherwrapper.com/llm-pricing)
+  - **Inferências**
+    - [groq.com](https://groq.com/)
+    - [openrouter.ai](https://openrouter.ai/)
+    - [huggingface.co](https://huggingface.co/)
+    - [Inferkit AI](https://inferkit.ai/)
+    - [AIMLAPI.com](https://aimlapi.com/)
+    - [SambaNova Systems](https://sambanova.ai/)
+    - [DeepSeek](https://platform.deepseek.com/sign_in)
+    - [Novita AI](https://novita.ai/model-api/pricing)
+    - [Replicate — Run AI with an API](https://replicate.com/)
+  - **Noticias sobre AI**
+    - [DeepLearning.AI | AI News & Insights](https://www.deeplearning.ai/the-batch/)
+    - [AI News](https://www.artificialintelligence-news.com/)
+    - [The Rundown AI](https://www.therundown.ai/)
+    - [AI News | Reuters](https://www.reuters.com/technology/artificial-intelligence/)
