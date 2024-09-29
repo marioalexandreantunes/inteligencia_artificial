@@ -5,6 +5,7 @@
   - **Pesquisa AIs**
     - [There's An AI For That](https://free.theresanaiforthat.com/)
     - [Supertools](https://supertools.therundown.ai/)
+    - [gpte.ai](https://www.gpte.ai/)
   - **AIO**
     - [anakin.ai](https://anakin.ai/)
     - [Merlin AI](https://www.getmerlin.in/)
