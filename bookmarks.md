@@ -37,8 +37,8 @@
     - [picsart.com](https://picsart.com/)
     - [infinite.ai](https://www.infinite.ai/)
   - **Prompts**
-    - [85 Best System Prompts To Get Better ChatGPT Responses](https://www.greataiprompts.com/prompts/best-system-prompts-for-chatgpt/)
-    - [mustvlad/ChatGPT-System-Prompts: This repository contains a collection of the best system prompts for ChatGPT, a conversational AI model developed by OpenAI. Star this repository to help us reach 5,000 stars!](https://github.com/mustvlad/ChatGPT-System-Prompts)
+    - [85 Best System Prompts](https://www.greataiprompts.com/prompts/best-system-prompts-for-chatgpt/)
+    - [mustvlad/ChatGPT-System-Prompts](https://github.com/mustvlad/ChatGPT-System-Prompts)
     - [WebSim AI Prompt Generator](https://websim.ai/c/ygZQyFODWG91Aluee)
     - [promptpal.net](https://www.promptpal.net/)
     - [FREE Prompts Library | Sabrina Ramonov](https://sabrinaramonov.notion.site/FREE-Prompts-Library-Sabrina-Ramonov-6ac894954218492d9fc9e1f7f90abc6c)
