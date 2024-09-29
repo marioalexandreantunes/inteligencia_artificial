@@ -37,6 +37,8 @@
     - [photoroom.com](https://www.photoroom.com/)
     - [picsart.com](https://picsart.com/)
     - [infinite.ai](https://www.infinite.ai/)
+  - **Audio**
+    - [text-to-speech](https://www.text-to-speech.online/)
   - **Prompts**
     - [85 Best System Prompts](https://www.greataiprompts.com/prompts/best-system-prompts-for-chatgpt/)
     - [mustvlad/ChatGPT-System-Prompts](https://github.com/mustvlad/ChatGPT-System-Prompts)
