@@ -70,3 +70,25 @@
     - [AI News](https://www.artificialintelligence-news.com/)
     - [The Rundown AI](https://www.therundown.ai/)
     - [AI News | Reuters](https://www.reuters.com/technology/artificial-intelligence/)
+   
+
+# Como usar LLM para melhorar prompts*:
+
+## Prompt system:
+
+### Eng
+
+1. Act as a propmpt engenier
+2. Review de following prompt for me
+3. Optimize it to make it better
+4. and ask me any question you have before proceding
+
+### Pt
+
+1. Atuar como um engenheiro de prompts
+2. Revê-me o seguinte prompt
+3. Optimiza-o para o tornar melhor
+4. e faz-me qualquer pergunta que necessites antes de prosseguir
+
+* **Prompt** é um texto ou uma sequência de caracteres que é fornecido a um modelo de linguagem ou a uma inteligência artificial para que ela gera uma resposta, crie conteúdo ou realize uma ação específica.
+   
