@@ -81,7 +81,7 @@
 
 ### Eng
 
-1. Act as a propmpt engenier
+1. Act as a prompt engineer
 2. Review de following prompt for me
 3. Optimize it to make it better
 4. and ask me any question you have before proceding
