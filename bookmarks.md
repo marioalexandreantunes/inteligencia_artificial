@@ -23,6 +23,28 @@
     - [NoteGPT](https://notegpt.io/)
   - **Sumario Notas**
     - [Notebooklm](https://notebooklm.google/)
+  - **Apresentações**
+    - [presentations.ai](https://www.presentations.ai/)
+    - [Gamma](https://gamma.app/)
+  - **Vídeos**
+    - [heygen](https://www.heygen.com/)
+    - [synthesia.io](https://www.synthesia.io/)
+    - [shortimize.com](https://www.shortimize.com/ai-video-tools)
+    - [hedra.com](https://www.hedra.com/)
+  - **Imagens**
+    - [craiyon.com](https://www.craiyon.com/)
+    - [photoroom.com](https://www.photoroom.com/)
+    - [picsart.com](https://picsart.com/)
+    - [infinite.ai](https://www.infinite.ai/)
+  - **Prompts**
+    - [85 Best System Prompts To Get Better ChatGPT Responses](https://www.greataiprompts.com/prompts/best-system-prompts-for-chatgpt/)
+    - [mustvlad/ChatGPT-System-Prompts: This repository contains a collection of the best system prompts for ChatGPT, a conversational AI model developed by OpenAI. Star this repository to help us reach 5,000 stars!](https://github.com/mustvlad/ChatGPT-System-Prompts)
+    - [WebSim AI Prompt Generator](https://websim.ai/c/ygZQyFODWG91Aluee)
+    - [promptpal.net](https://www.promptpal.net/)
+    - [FREE Prompts Library | Sabrina Ramonov](https://sabrinaramonov.notion.site/FREE-Prompts-Library-Sabrina-Ramonov-6ac894954218492d9fc9e1f7f90abc6c)
+  - **Análise de Dados**
+    - [julius.ai](https://julius.ai/)
+    - [rows.com/ai](https://rows.com/ai)
   - **LLM**
     - [chatgpt](https://chatgpt.com/)
     - [anthropic](https://www.anthropic.com/)
