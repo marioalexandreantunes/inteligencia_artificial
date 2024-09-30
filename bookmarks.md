@@ -1,79 +1,108 @@
-# Bookmarks
+# Lista de Recursos de AI
 
-## Bookmarks
-- **IA para tudo**
-  - **Pesquisa AIs**
-    - [There's An AI For That](https://free.theresanaiforthat.com/)
-    - [Supertools](https://supertools.therundown.ai/)
-    - [gpte.ai](https://www.gpte.ai/)
-  - **AIO**
-    - [anakin.ai](https://anakin.ai/)
-    - [Merlin AI](https://www.getmerlin.in/)
-    - [123apps](https://123apps.com/pt/)
-  - **Pesquisa Web**
-    - [Perplexity](https://www.perplexity.ai/)
-    - [komo.ai](https://komo.ai/)
-    - [You.com](https://you.com/)
-    - [Andi](https://andisearch.com/)
-    - [Perplexica - AI Search](https://perplexica.io/)
-    - [OPENPERPLEX](https://openperplex.com/)
-  - **Infogramas**
-    - [Napkin AI](https://www.napkin.ai/)
-    - [Infographic Maker](https://piktochart.com/)
-  - **Sumario YouTube**
-    - [NoteGPT](https://notegpt.io/)
-  - **Sumario Notas**
-    - [Notebooklm](https://notebooklm.google/)
-  - **Apresentações**
-    - [presentations.ai](https://www.presentations.ai/)
-    - [Gamma](https://gamma.app/)
-    - [slidesai](https://www.slidesai.io/pt)
-  - **Vídeos**
-    - [heygen](https://www.heygen.com/)
-    - [synthesia.io](https://www.synthesia.io/)
-    - [shortimize.com](https://www.shortimize.com/ai-video-tools)
-    - [hedra.com](https://www.hedra.com/)
-  - **Imagens**
-    - [craiyon.com](https://www.craiyon.com/)
-    - [photoroom.com](https://www.photoroom.com/)
-    - [picsart.com](https://picsart.com/)
-    - [infinite.ai](https://www.infinite.ai/)
-  - **Audio**
-    - [text-to-speech](https://www.text-to-speech.online/)
-  - **Prompts**
-    - [85 Best System Prompts](https://www.greataiprompts.com/prompts/best-system-prompts-for-chatgpt/)
-    - [mustvlad/ChatGPT-System-Prompts](https://github.com/mustvlad/ChatGPT-System-Prompts)
-    - [WebSim AI Prompt Generator](https://websim.ai/c/ygZQyFODWG91Aluee)
-    - [promptpal.net](https://www.promptpal.net/)
-    - [FREE Prompts Library | Sabrina Ramonov](https://sabrinaramonov.notion.site/FREE-Prompts-Library-Sabrina-Ramonov-6ac894954218492d9fc9e1f7f90abc6c)
-  - **Análise de Dados**
-    - [julius.ai](https://julius.ai/)
-    - [rows.com/ai](https://rows.com/ai)
-  - **LLM**
-    - [chatgpt](https://chatgpt.com/)
-    - [anthropic](https://www.anthropic.com/)
-    - [Llama](https://www.llama.com/)
-    - [gemini](https://gemini.google.com/)
-    - [mistral](https://mistral.ai/)
-    - [huggingface.co](https://huggingface.co/)
-  - **Comparador de preço**
-    - [llmprices.dev](https://llmprices.dev/)
-    - [LLM Pricing Comparison](https://anotherwrapper.com/llm-pricing)
-  - **Inferências**
-    - [groq.com](https://groq.com/)
-    - [openrouter.ai](https://openrouter.ai/)
-    - [huggingface.co](https://huggingface.co/)
-    - [Inferkit AI](https://inferkit.ai/)
-    - [AIMLAPI.com](https://aimlapi.com/)
-    - [SambaNova Systems](https://sambanova.ai/)
-    - [DeepSeek](https://platform.deepseek.com/sign_in)
-    - [Novita AI](https://novita.ai/model-api/pricing)
-    - [Replicate — Run AI with an API](https://replicate.com/)
-  - **Noticias sobre AI**
-    - [DeepLearning.AI | AI News & Insights](https://www.deeplearning.ai/the-batch/)
-    - [AI News](https://www.artificialintelligence-news.com/)
-    - [The Rundown AI](https://www.therundown.ai/)
-    - [AI News | Reuters](https://www.reuters.com/technology/artificial-intelligence/)
+## Grupo: Pesquisa AIs
+- **Nome:** [There's An AI For That - Discover The Newest And Best AI Tools](https://free.theresanaiforthat.com/)
+- **Nome:** [Supertools | Best AI Tools Guide](https://supertools.therundown.ai/)
+
+## Grupo: AIO
+- **Nome:** [anakin.ai](https://anakin.ai/)
+- **Nome:** [Merlin AI | Ask AI to Research, Write, Summarize in 1-click](https://www.getmerlin.in/)
+- **Nome:** [Aplicativos da web por 123apps - Editar, converter, criar](https://123apps.com/pt/)
+
+## Grupo: Pesquisa Web
+- **Nome:** [Perplexity](https://www.perplexity.ai/)
+- **Nome:** [Perplexity](https://komo.ai/)
+- **Nome:** [You.com](https://you.com/)
+- **Nome:** [Andi](https://andisearch.com/)
+- **Nome:** [Perplexica - AI Search](https://perplexica.io/)
+- **Nome:** [OPENPERPLEX](https://openperplex.com/)
+
+## Grupo: Infogramas
+- **Nome:** [Napkin AI - The visual AI for business storytelling](https://www.napkin.ai/)
+- **Nome:** [Infographic Maker](https://piktochart.com/)
+
+## Grupo: Sumário YT
+- **Nome:** [NoteGPT - AI Summarizer and Generator for Enhanced Learning](https://notegpt.io/)
+
+## Grupo: Sumário Notas TXT
+- **Nome:** [notebooklm.google](https://notebooklm.google/)
+- **Nome:** [Unriddle | Faster research](https://www.unriddle.ai/)
+
+## Grupo: Texto
+- **Nome:** [AI Detector by Grammarly](https://www.grammarly.com/ai-detector)
+- **Nome:** [AI Detector, AI Checker, & AI Humanizer | Undetectable AI](https://undetectable.ai/)
+
+## Grupo: Apresentações
+- **Nome:** [presentations.ai](https://www.presentations.ai/)
+- **Nome:** [Gamma](https://gamma.app/)
+
+## Grupo: Análise de dados
+- **Nome:** [julius.ai](https://julius.ai/)
+- **Nome:** [Rows AI](https://rows.com/ai)
+
+## Grupo: Imagens
+- **Nome:** [AI Photo Editor: Remove Background & Create Product Pics | Photoroom](https://www.photoroom.com/)
+- **Nome:** [Picsart](https://picsart.com/)
+- **Nome:** [Infinite AI Image Generator](https://websim.ai/c/iDr1gCvon4TYIfwTO)
+- **Nome:** [Craiyon - Your FREE AI image generator tool: Create AI art!](https://www.craiyon.com/)
+- **Nome:** [FLUX.1 [dev] - a Hugging Face Space by black-forest-labs](https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev)
+- **Nome:** [black-forest-labs/FLUX.1-dev · Hugging Face](https://huggingface.co/black-forest-labs/FLUX.1-dev)
+- **Nome:** [Flux AI - Free Online Flux.1 AI Image Generator](https://flux1.ai/)
+- **Nome:** [craiyon.com](https://www.craiyon.com/)
+- **Nome:** [midjourney](https://www.midjourney.com/)
+
+## Grupo: Vídeos - Avatares
+- **Nome:** [heygen](https://www.heygen.com/)
+- **Nome:** [hedra.com](https://www.hedra.com/)
+- **Nome:** [synthesia.io](https://www.synthesia.io/)
+- **Nome:** [The Number One Directory Of AI Short Form Video Tools](https://www.shortimize.com/ai-video-tools)
+- **Nome:** [LensGo | Create Style Transfer Videos Easily](https://lensgo.ai/)
+
+## Grupo: Developer
+
+## Grupo: Outros
+- **Nome:** [screenpi.pe](https://screenpi.pe/)
+
+## Grupo: Prompts
+- **Nome:** [85 Best System Prompts To Get Better ChatGPT Responses](https://www.greataiprompts.com/prompts/best-system-prompts-for-chatgpt/)
+- **Nome:** [mustvlad/ChatGPT-System-Prompts](https://github.com/mustvlad/ChatGPT-System-Prompts)
+- **Nome:** [mustvlad/ChatGPT-System-Prompts 5,000 stars!](https://github.com/mustvlad/ChatGPT-System-Prompts/tree/main)
+- **Nome:** [WebSim AI Prompt Generator](https://websim.ai/c/ygZQyFODWG91Aluee)
+- **Nome:** [anthropic](https://console.anthropic.com/dashboard)
+- **Nome:** [promptpal.net](https://www.promptpal.net/)
+- **Nome:** [FREE Prompts Library | Sabrina Ramonov](https://sabrinaramonov.notion.site/FREE-Prompts-Library-Sabrina-Ramonov-6ac894954218492d9fc9e1f7f90abc6c)
+- **Nome:** [Prompts Database](https://sabrinaramonov.notion.site/7b494e2a821a451cb8ee92bf1a5d962a?v=3d895a3d9b5240939585680eda58dcb9)
+
+## Grupo: LLM
+- **Nome:** [chatgpt](https://chatgpt.com/)
+- **Nome:** [anthropic](https://www.anthropic.com/)
+- **Nome:** [Llama](https://www.llama.com/)
+- **Nome:** [gemini](https://gemini.google.com/)
+- **Nome:** [x.ai](https://x.ai/)
+- **Nome:** [mistral](https://mistral.ai/)
+- **Nome:** [huggingface.co](https://huggingface.co/models)
+
+## Grupo: Comparador de preço
+- **Nome:** [llmprices.dev](https://llmprices.dev/)
+- **Nome:** [LLM Pricing Comparison: GPT-4, Claude, Gemini, Llama](https://anotherwrapper.com/llm-pricing)
+
+## Grupo: Inferências
+- **Nome:** [groq.com](https://groq.com/)
+- **Nome:** [openrouter.ai](https://openrouter.ai/)
+- **Nome:** [huggingface.co](https://huggingface.co/)
+- **Nome:** [Inferkit AI: Cheaper & Faster LLM router](https://inferkit.ai/)
+- **Nome:** [Access 200+ AI Models with a Single AI API | AIMLAPI.com](https://aimlapi.com/)
+- **Nome:** [SambaNova Systems | Revolutionize AI Workloads](https://sambanova.ai/)
+- **Nome:** [DeepSeek](https://platform.deepseek.com/sign_in)
+- **Nome:** [Novita AI Pricing for Model APIs - One of The Cheapest Model API Providers](https://novita.ai/model-api/pricing)
+- **Nome:** [Replicate — Run AI with an API](https://replicate.com/)
+
+## Grupo: Notícias sobre AI
+- **Nome:** [The Batch | DeepLearning.AI | AI News & Insights](https://www.deeplearning.ai/the-batch/)
+- **Nome:** [AI News - Artificial Intelligence News](https://www.artificialintelligence-news.com/)
+- **Nome:** [The Rundown AI](https://www.therundown.ai/)
+- **Nome:** [AI News | Latest Headlines and Developments | Reuters](https://www.reuters.com/technology/artificial-intelligence/)
+
    
 
 # Como usar LLM para melhorar prompts*:
