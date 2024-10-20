@@ -15,12 +15,17 @@
 
 Notas adicionais sobre os modelos Llama 3.2 1B e 3B:
 
-1. **Linguagens suportadas**: Ambos os modelos oferecem suporte robusto a oito idiomas: inglês, alemão, francês, italiano, português, hindi, espanhol e tailandês[1][2].
-2. **Contexto**: Ambos os modelos mantêm uma capacidade de contexto de 128K tokens, o que é uma melhoria significativa em relação a muitos outros modelos[1][2].
+1. **Linguagens suportadas**: Ambos os modelos oferecem suporte robusto a oito idiomas: inglês, alemão, francês, italiano, português, hindi, espanhol e tailandês.
+2. **Contexto**: Ambos os modelos mantêm uma capacidade de contexto de 128K tokens, o que é uma melhoria significativa em relação a muitos outros modelos.
 3. **Aplicações**: 
-   - O modelo 1B é ideal para assistentes de escrita com IA em dispositivos móveis, aplicações de atendimento ao cliente e gerenciamento de informações pessoais[2][3].
-   - O modelo 3B é adequado para resumos de texto, classificação e tarefas de tradução de idiomas[2].
-4. **Eficiência**: Esses modelos são projetados para serem mais eficientes em cargas de trabalho de IA, com latência reduzida e desempenho aprimorado[2].
-5. **Uso em dispositivos de borda**: Ambos os modelos são otimizados para uso em dispositivos de borda e aplicações móveis, permitindo processamento local com forte privacidade de dados[2][3].
-6. **Arquitetura**: Utilizam uma arquitetura de transformador otimizada e foram ajustados usando técnicas de fine-tuning supervisionado (SFT) e aprendizado por reforço com feedback humano (RLHF)[3][4].
-7. **Dados de treinamento**: Foram pré-treinados em até 9 trilhões de tokens de dados de fontes publicamente disponíveis, com data de corte em dezembro de 2023[3][4].
+   - O modelo 1B é ideal para assistentes de escrita com IA em dispositivos móveis, aplicações de atendimento ao cliente e gerenciamento de informações pessoais.
+   - O modelo 3B é adequado para resumos de texto, classificação e tarefas de tradução de idiomas.
+4. **Eficiência**: Esses modelos são projetados para serem mais eficientes em cargas de trabalho de IA, com latência reduzida e desempenho aprimorado.
+5. **Uso em dispositivos de borda**: Ambos os modelos são otimizados para uso em dispositivos de borda e aplicações móveis, permitindo processamento local com forte privacidade de dados.
+6. **Arquitetura**: Utilizam uma arquitetura de transformador otimizada e foram ajustados usando técnicas de fine-tuning supervisionado (SFT) e aprendizado por reforço com feedback humano (RLHF).
+7. **Dados de treinamento**: Foram pré-treinados em até 9 trilhões de tokens de dados de fontes publicamente disponíveis, com data de corte em dezembro de 2023.
+
+Notas:
+ [*] Preços estimados do openrouter.ai 
+ [**] Modelos de código aberto são geralmente gratuitos para uso, mas podem incorrer em custos de infraestrutura para implantação e execução.
+N/D: Não Disponível (informação não encontrada nos resultados da pesquisa)
