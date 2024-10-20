@@ -26,6 +26,6 @@ Notas adicionais sobre os modelos Llama 3.2 1B e 3B:
 7. **Dados de treinamento**: Foram pré-treinados em até 9 trilhões de tokens de dados de fontes publicamente disponíveis, com data de corte em dezembro de 2023.
 
 Notas:
- [*] Preços estimados do openrouter.ai 
- [**] Modelos de código aberto são geralmente gratuitos para uso, mas podem incorrer em custos de infraestrutura para implantação e execução.
-N/D: Não Disponível (informação não encontrada nos resultados da pesquisa)
+- [*] Preços estimados do openrouter.ai 
+- [**] Modelos de código aberto são geralmente gratuitos para uso, mas podem incorrer em custos de infraestrutura para implantação e execução.
+- N/D: Não Disponível (informação não encontrada nos resultados da pesquisa)
