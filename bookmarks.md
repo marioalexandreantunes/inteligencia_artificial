@@ -8,10 +8,11 @@
 - **Nome:** [anakin.ai](https://anakin.ai/)
 - **Nome:** [Merlin AI | Ask AI to Research, Write, Summarize in 1-click](https://www.getmerlin.in/)
 - **Nome:** [Aplicativos da web por 123apps - Editar, converter, criar](https://123apps.com/pt/)
+- **Nome:** [giz.AI](https://www.giz.ai)
 
 ## Grupo: Pesquisa Web
 - **Nome:** [Perplexity](https://www.perplexity.ai/)
-- **Nome:** [Perplexity](https://komo.ai/)
+- **Nome:** [Komo](https://komo.ai/)
 - **Nome:** [You.com](https://you.com/)
 - **Nome:** [Andi](https://andisearch.com/)
 - **Nome:** [Perplexica - AI Search](https://perplexica.io/)
@@ -102,6 +103,12 @@
 - **Nome:** [AI News - Artificial Intelligence News](https://www.artificialintelligence-news.com/)
 - **Nome:** [The Rundown AI](https://www.therundown.ai/)
 - **Nome:** [AI News | Latest Headlines and Developments | Reuters](https://www.reuters.com/technology/artificial-intelligence/)
+
+## Grupo: Voice AI
+- **Nome:** [voiceflow](https://www.voiceflow.com/)
+- **Nome:** [vapi.AI](https://vapi.ai/)
+- **Nome:** [cognigy](https://www.cognigy.com/)
+- **Nome:** [retellai](https://www.retellai.com/)
 
    
 
