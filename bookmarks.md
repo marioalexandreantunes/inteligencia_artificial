@@ -63,6 +63,11 @@
 - **Nome:** [LensGo | Create Style Transfer Videos Easily](https://lensgo.ai/)
 
 ## Grupo: Developer
+-- **Nome:** [V0 dev](https://v0.dev/)
+-- **Nome:** [bolt.new](https://bolt.new/))
+-- **Nome:** [cofounder](https://github.com/raidendotai/cofounder)
+-- **Nome:** [replit](https://replit.com/)
+-- **Nome:** [cursor](https://www.cursor.com/)
 
 ## Grupo: Outros
 - **Nome:** [screenpi.pe](https://screenpi.pe/)
