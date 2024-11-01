@@ -24,6 +24,9 @@
 
 ## Grupo: Sumário YT
 - **Nome:** [NoteGPT - AI Summarizer and Generator for Enhanced Learning](https://notegpt.io/)
+- **Nome:** [summarize.tech](https://www.summarize.tech/)
+- **Nome:** [nobinge.ai](https://nobinge.ai/)
+- **Nome:** [gist.ly/youtube-summarizer](https://gist.ly/youtube-summarizer)
 
 ## Grupo: Sumário Notas TXT
 - **Nome:** [notebooklm.google](https://notebooklm.google/)
