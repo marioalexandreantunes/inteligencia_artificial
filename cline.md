@@ -14,7 +14,7 @@ Analisa se existe possibilidade de fazer facilmente a atualização do Lavrável
 
 ## Resultados
 
-| **LLM**               | **Dados Transferidos (Up)** | **Dados Transferidos (Down)** | **Custo (€)** | **Velocidade (tps)** | **Análise de Segurança**                                          | **Capacidade de analise**              |
+| **LLM**               | **Tokens Transferidos (Up)** | **Tokens Transferidos (Down)** | **Custo (€)** | **Velocidade (tps)** | **Análise de Segurança**                                          | **Capacidade de analise**              |
 |-----------------------|----------------------------|-------------------------------|---------------|-----------------------|-------------------------------------------------------------------|----------------------------------------------------|
 | **Claude Sonnet 3.5** | 103K 	                   | 1.6K                          | 0.123         | 48.2                 | Melhor análise e desafios bem resolvidos                         | Excelente                                           |
 | **Deepseek v3 api**   | 390K 	                  | 4K                            | 0.007         | 10                   | Análise vasta e assertiva                                        | Boa                                                 |
