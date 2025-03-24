@@ -229,5 +229,18 @@ Adotar uma combinação de duas ou três ferramentas complementares é uma abord
 **Sugestão de combinação de ferramentas:**  
 - **a) Claude Sonnet 3.5:** Ideal para realizar análises principais e criar a versão inicial do ficheiro.  
 - **b) Deepseek v3 API:** Excelente como complemento, devido à sua análise ampla e assertiva, perfeita para validar e enriquecer o trabalho do Claude.  
-- **c) Gpt-4o-mini:** Uma ótima escolha como suporte adicional, destacando-se pela sua rapidez e qualidade, apesar de não ser tão detalhado quanto o Deepseek.  
+- **c) Gpt-4o-mini:** Uma ótima escolha como suporte adicional, destacando-se pela sua rapidez e qualidade, apesar de não ser tão detalhado quanto o Deepseek.
+
+# Outros IDEs
+
+| Feature | Cursor AI | Windsurf | Trae | VS Code (Cline) |
+| :-- | :-- | :-- | :-- | :-- |
+| Pricing | Hobby: Free<br>Pro: \$20/month<br>Business: \$40/user/month | Free: Unlimited access to Cascade Base<br>Pro: \$15/month<br>Pro Ultimate: \$60/month | Free (currently) | Free (extension)<br>Pay per token used |
+| Plugins/Extensions | Based on VS Code, wide variety | Proprietary, number unspecified | Uses VS Code plugins | Wide variety (VS Code ecosystem) |
+| MCP servers support | Yes | Yes | Information not available | Yes, with MCP Marketplace |
+| Supported LLMs | GPT-4, Claude 3.5/3.7 Sonne | Cascade Base, GPT-4o, Claude 3.5 Sonnet | Claude 3.5, 3.7, GPT-4o, Deepseek | Multiple models, including GPT-4 |
+| AI Features | Autocomplete, integrated chat, code generation | Autocomplete, integrated chat, Cascade flow | Code analysis, automatic generation, real-time assistance | AI coding agent, file reading/writing/editing |
+| Integration | Standalone IDE based on VS Code | Standalone IDE | Adaptive IDE | VS Code extension |
+| Limitations | May have slower performance on large codebases | Limited credits for premium models on free plan | Information not available | Difficulties with large files (>2-3k lines) |
+| Unique Selling Point | Robust AI integration, familiar to VS Code users | Free plan with unlimited base model features | Free access to several advanced LLMs | Open-source, model flexibility |
 
