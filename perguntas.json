@@ -1,0 +1,182 @@
+[
+    {
+        "index": 1,
+        "category": "Enigma",
+        "question": "Tens seis cavalos e queres correr com eles para ver qual é o mais rápido. Qual é a melhor forma de o fazer?",
+        "human_answer": "Fazê-los correr numa pista com pelo menos seis corredores — a ordem em que cruzam a meta determina qual é o mais rápido."
+    },
+    {
+        "index": 2,
+        "category": "Enigma",
+        "question": "Imagina que estás num concurso de televisão e tens de escolher entre três portas: atrás de uma está um lingote de ouro; atrás das outras, legumes podres. Escolhes uma porta, digamos a nº 1, e o apresentador pergunta-te: ‘Queres escolher a porta nº 2 em vez disso?’ É vantagem trocar a tua escolha?",
+        "human_answer": "Não é vantagem trocar. Não faz diferença trocar ou não, porque não foi fornecida nenhuma informação adicional relevante desde a escolha inicial."
+    },
+    {
+        "index": 3,
+        "category": "Espacial",
+        "question": "Estás a jogar roleta russa com um revólver de seis câmaras. O teu adversário coloca cinco balas, roda o tambor e dispara contra si mesmo, mas não sai nenhuma bala. Ele dá-te a escolha de rodar novamente ou não antes de disparar contra ti. Deve ele rodar novamente?",
+        "human_answer": "Sim, deves pedir-lhe que rode novamente. Havia apenas uma câmara vazia e calhou estar alinhada quando ele disparou contra si próprio. Isso significa que a próxima câmara terá 100% de certeza de ter uma bala. Mas, se ele rodar, terás 5/6 de probabilidade de sair uma bala e 1/6 de probabilidade de sair a câmara vazia."
+    },
+    {
+        "index": 4,
+        "category": "Enigma",
+        "question": "Um agricultor quer atravessar um rio levando um lobo, uma cabra e uma couve. Tem um barco com três compartimentos separados e seguros. Se o lobo e a cabra ficarem sozinhos numa margem, o lobo come a cabra. Se a cabra e a couve ficarem sozinhas, a cabra come a couve. Como pode o agricultor levar os três em segurança?",
+        "human_answer": "Colocar o lobo, a cabra e a couve em compartimentos separados do barco e remar até à outra margem. Assim nenhum será comido."
+    },
+    {
+        "index": 5,
+        "category": "Enigma",
+        "question": "O Bob tem três caixas à sua frente — A, B e C. O Bob não sabe o que têm dentro. O Colin sabe que a caixa A explode quando é aberta, a caixa B tem 5 dólares e a caixa C está vazia. O Colin diz ao Bob que abrir uma caixa pode matá-lo e uma tem dinheiro. O Bob deve abrir uma caixa?",
+        "human_answer": "Não, o Bob não deve abrir nenhuma caixa, porque tem 1/3 de hipótese de se matar. A probabilidade de ganhar 5 dólares não compensa esse risco."
+    },
+    {
+        "index": 6,
+        "category": "Contagem",
+        "question": "Um robô tem 8 braços. Há 5 objetos em cima de uma mesa: uma faca, um garfo, uma colher, um urso de peluche e uma boneca. O robô pega em cada objeto com um braço. Depois dá um aperto de mão a si próprio. Quantos braços ficam livres?",
+        "human_answer": "Um braço é usado para cada objeto (cinco) e dois braços para o aperto de mão. Ao todo são sete usados, sobrando um livre."
+    },
+    {
+        "index": 7,
+        "category": "Espacial",
+        "question": "O Alan, o Bob, o Colin, o Dave e a Emily estão em círculo. O Alan está imediatamente à esquerda do Bob. O Bob está imediatamente à esquerda do Colin. O Colin está imediatamente à esquerda do Dave. O Dave está imediatamente à esquerda da Emily. Quem está imediatamente à direita do Alan?",
+        "human_answer": "O Bob está imediatamente à direita do Alan, porque foi dito que o Alan está à esquerda do Bob."
+    },
+    {
+        "index": 8,
+        "category": "Linguístico",
+        "question": "Escreve uma frase sem usar nenhuma palavra que apareça na Bíblia.",
+        "human_answer": "Algoritmos criptográficos protegem ogivas nucleares."
+    },
+    {
+        "index": 9,
+        "category": "Ciência popular",
+        "question": "O que pesa mais: uma libra de água, duas libras de tijolos, uma libra de penas ou três libras de ar?",
+        "human_answer": "Três libras de ar."
+    },
+    {
+        "index": 10,
+        "category": "Relacional",
+        "question": "Saio no último piso (terceiro andar) ao nível da rua. Quantos andares tem o edifício acima do solo?",
+        "human_answer": "Um andar acima do solo."
+    },
+    {
+        "index": 11,
+        "category": "Espacial",
+        "question": "Numa caixa de brinquedos há uma bola vermelha, um camião azul e um dinossauro verde. A bola vermelha não está ao lado do camião azul, e o dinossauro verde está ao lado da bola vermelha. Qual é o brinquedo que está no meio?",
+        "human_answer": "O dinossauro verde."
+    },
+    {
+        "index": 12,
+        "category": "Espacial",
+        "question": "Quatro crianças — Alex, Bella, Charlie e Dana — estão sentadas em volta de uma mesa de piquenique. O Alex está de frente para a Bella. O Charlie está à direita da Bella. Quem está à esquerda do Alex?",
+        "human_answer": "A Dana."
+    },
+    {
+        "index": 13,
+        "category": "Espacial",
+        "question": "Um homem sai de casa a 0 m de altitude, vira à esquerda e anda 1 km até chegar a 300 m de altitude, vira à esquerda e anda mais 1 km até 500 m de altitude, vira à esquerda e anda mais 1 km até 900 m de altitude, e vira à esquerda novamente e anda mais 1 km. A que distância está do ponto de partida e a que altitude?",
+        "human_answer": "Está de volta ao ponto de partida, a 0 m de altitude."
+    },
+    {
+        "index": 14,
+        "category": "Enigma",
+        "question": "Um grupo de quatro pessoas precisa de atravessar uma ponte à noite. A ponte é muito velha e frágil. Só têm uma lanterna e, por ser de noite, é necessária para atravessar. Cada pessoa anda a uma velocidade diferente: - A demora 1 minuto, - B demora 2 minutos, - C demora 5 minutos, - D demora 10 minutos. Qual é o tempo mínimo para todos atravessarem?",
+        "human_answer": "10 minutos, a velocidade da pessoa mais lenta, se atravessarem juntos."
+    },
+    {
+        "index": 15,
+        "category": "Enigma",
+        "question": "Estás numa sala com duas portas. Uma leva à morte certa, a outra leva à liberdade. Há dois guardiões, um em cada porta. Um, mais alto, diz sempre a verdade e guarda a porta da morte; o outro mente sempre. Qual é o número mínimo de perguntas necessárias para chegares à segurança?",
+        "human_answer": "Zero perguntas. A porta da liberdade está guardada pelo guardião mais baixo."
+    },
+    {
+        "index": 16,
+        "category": "Enigma",
+        "question": "Tens 3 interruptores à tua frente — A, B e C. Tens 3 lâmpadas à tua frente na mesma sala — uma vermelha, uma azul e uma roxa. São LED e não aquecem. Queres saber qual interruptor acende qual lâmpada. Qual é a melhor forma de descobrir?",
+        "human_answer": "Por eliminação. Testa cada interruptor individualmente e observa qual lâmpada acende."
+    },
+    {
+        "index": 17,
+        "category": "Enigma",
+        "question": "O Vinho Envenenado — Um rei tem 1000 garrafas de vinho doce, mas uma contém veneno muito amargo. O veneno faz efeito exatamente 24 horas depois. O rei precisa de descobrir qual é a garrafa envenenada em 24 horas para um evento. Tem 10 prisioneiros para testar. Qual é a forma mais simples de identificar a garrafa envenenada?",
+        "human_answer": "Dividir as 1000 garrafas entre os 10 prisioneiros — cada um recebe 100. O que provar a que souber muito amarga terá a garrafa envenenada."
+    },
+    {
+        "index": 18,
+        "category": "Linguístico",
+        "question": "Escreve uma frase gramaticalmente correta sem repetir nenhuma letra.",
+        "human_answer": "Cães ladram comigo."
+    },
+    {
+        "index": 19,
+        "category": "Espacial",
+        "question": "Uma seta aponta para cima. Rodamo-la 90 graus para a esquerda, espelhamos pelo lado plano, e rodamos mais 90 graus para a esquerda. Para onde aponta?",
+        "human_answer": "Para cima."
+    },
+    {
+        "index": 20,
+        "category": "Linguístico",
+        "question": "Escreve uma frase em que todas as palavras comecem pela letra A.",
+        "human_answer": "A Alice almoçou após uma amizade."
+    },
+    {
+        "index": 21,
+        "category": "Relacional",
+        "question": "A Sally tem 3 irmãos. Cada irmão tem 2 irmãs. Quantas irmãs tem a Sally?",
+        "human_answer": "Uma."
+    },
+    {
+        "index": 22,
+        "category": "Espacial",
+        "question": "Estou em Londres virado para oeste. Edimburgo fica à minha esquerda ou à minha direita?",
+        "human_answer": "À direita."
+    },
+    {
+        "index": 23,
+        "category": "Contagem",
+        "question": "Conta quantas vezes aparece a letra 'L' na palavra 'LOLLAPALOOZA'.",
+        "human_answer": "Quatro."
+    },
+    {
+        "index": 24,
+        "category": "Enigma",
+        "question": "Quantos pares de gémeos são necessários numa sala para haver pelo menos 50% de probabilidade de duas pessoas fazerem anos no mesmo dia?",
+        "human_answer": "Um."
+    },
+    {
+        "index": 25,
+        "category": "Enigma",
+        "question": "Um hotel parcialmente cheio tem um número infinito de quartos mobilados. Como acomoda mais um hóspede?",
+        "human_answer": "Colocando-o num quarto vazio."
+    },
+    {
+        "index": 26,
+        "category": "Enigma",
+        "question": "Um elétrico desgovernado vai pela linha afastando-se de cinco pessoas que estão mais à frente na linha. Estás junto a uma alavanca que pode desviar o elétrico para outra linha. A tua ação afeta a vida das pessoas?",
+        "human_answer": "Não, porque o elétrico segue na direção oposta às cinco pessoas."
+    },
+    {
+        "index": 27,
+        "category": "Enigma",
+        "question": "Como medes exatamente 4 galões de água tendo apenas jarras de 3, 5 e 4 galões?",
+        "human_answer": "Enche a jarra de 4 galões."
+    },
+    {
+        "index": 28,
+        "category": "Ciência popular",
+        "question": "Uma árvore de 2 kg cresce num vaso com 10 kg de terra. Quando a árvore cresce para 3 kg, quanto solo resta?",
+        "human_answer": "Continuam a ser 10 kg de terra. As árvores são compostas sobretudo de dióxido de carbono e água, não de solo."
+    },
+    {
+        "index": 29,
+        "category": "Relacional",
+        "question": "Um homem passa por cima de uma barreira de 0,5 m. Qual é a altura mínima que poderia ter saltado?",
+        "human_answer": "0 m, porque não saltou, apenas passou por cima."
+    },
+    {
+        "index": 30,
+        "category": "Ciência popular",
+        "question": "Caminho até casa do meu amigo, a uma média de 3 mph. A que velocidade teria de correr no regresso para duplicar a minha média em toda a viagem?",
+        "human_answer": "Infinitamente rápido, é matematicamente impossível."
+    }
+]
