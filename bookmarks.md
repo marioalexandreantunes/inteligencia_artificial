@@ -107,6 +107,7 @@
 - **Nome:** [Replicate — Run AI with an API](https://replicate.com/)
 
 ## Grupo: Notícias sobre AI
+- **Nome:** [AI Weekly — Descubra o que especialistas em IA estão lendo e compartilhando agora](https://aiweekly.co/)
 - **Nome:** [The Batch | DeepLearning.AI | AI News & Insights](https://www.deeplearning.ai/the-batch/)
 - **Nome:** [AI News - Artificial Intelligence News](https://www.artificialintelligence-news.com/)
 - **Nome:** [The Rundown AI](https://www.therundown.ai/)
